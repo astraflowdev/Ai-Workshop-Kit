@@ -1,0 +1,2685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Workshop - From User to Builder</title>
+
+    <!-- Reveal.js CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.css">
+
+    <!-- Code highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/highlight/monokai.css">
+
+    <!-- Custom theme -->
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/new-layouts.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+            <!-- SLIDE 1: Title Slide -->
+            <section class="title-slide dark-bg" data-transition="zoom">
+                <div class="geometric-accent"></div>
+                <h1 class="main-title">
+                    FROM AI USER<br>
+                    <span class="highlight-green">TO AI BUILDER</span>
+                </h1>
+                <p class="subtitle">Your 2-Hour Journey to Building AI-Powered Apps</p>
+                <div class="divider"></div>
+                <div class="workshop-info">
+                    <p>B.Tech CSE Workshop | November 2025</p>
+                    <p>By <strong>Arjit</strong> | Full Stack AI Consultant</p>
+                    <p class="social"><span class="highlight-green">@codewitharjit</span> | 183k+ Followers</p>
+                </div>
+            </section>
+
+            <!-- SLIDE 2: Quick Question (Interactive) -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">RAISE YOUR HAND</h2>
+                <div class="question-grid">
+                    <div class="question-box fragment fade-up" data-fragment-index="1">
+                        <span class="hand-icon">👋</span>
+                        <p>Used ChatGPT for assignments or projects?</p>
+                    </div>
+                    <div class="question-box fragment fade-up" data-fragment-index="2">
+                        <span class="hand-icon">👋</span>
+                        <p>Asked Gemini to explain concepts?</p>
+                    </div>
+                    <div class="question-box fragment fade-up" data-fragment-index="3">
+                        <span class="hand-icon">👋</span>
+                        <p>Used Claude for coding help?</p>
+                    </div>
+                    <div class="question-box fragment fade-up" data-fragment-index="4">
+                        <span class="hand-icon">👋</span>
+                        <p>Used GitHub Copilot or Cursor?</p>
+                    </div>
+                </div>
+                <p class="callout-text fragment fade-in" data-fragment-index="5">
+                    If you raised your hand even once...<br>
+                    <span class="highlight-green">You're already an AI power user.</span>
+                </p>
+            </section>
+
+            <!-- SLIDE 3: The AI Apps You Love -->
+            <section class="white-bg" data-transition="convex">
+                <h2 class="dark-heading">THE TOOLS THAT CHANGED EVERYTHING</h2>
+                <div class="app-grid">
+                    <div class="app-card fragment" data-fragment-index="1">
+                        <h3>ChatGPT</h3>
+                        <p class="app-quote">"Write my essay"</p>
+                    </div>
+                    <div class="app-card fragment" data-fragment-index="1">
+                        <h3>Gemini</h3>
+                        <p class="app-quote">"Explain concepts"</p>
+                    </div>
+                    <div class="app-card fragment" data-fragment-index="1">
+                        <h3>Claude</h3>
+                        <p class="app-quote">"Debug my code"</p>
+                    </div>
+                    <div class="app-card fragment" data-fragment-index="2">
+                        <h3>Copilot</h3>
+                        <p class="app-quote">"Complete my code"</p>
+                    </div>
+                    <div class="app-card fragment" data-fragment-index="2">
+                        <h3>Cursor</h3>
+                        <p class="app-quote">"Edit this file"</p>
+                    </div>
+                    <div class="app-card fragment" data-fragment-index="2">
+                        <h3>Perplexity</h3>
+                        <p class="app-quote">"Research anything"</p>
+                    </div>
+                    <div class="app-card fragment" data-fragment-index="3">
+                        <h3>Midjourney</h3>
+                        <p class="app-quote">"Generate artwork"</p>
+                    </div>
+                    <div class="app-card fragment" data-fragment-index="3">
+                        <h3>DALL-E</h3>
+                        <p class="app-quote">"Create logos"</p>
+                    </div>
+                    <div class="app-card fragment" data-fragment-index="3">
+                        <h3>Runway</h3>
+                        <p class="app-quote">"Edit my video"</p>
+                    </div>
+                </div>
+                <div class="bottom-callout fragment fade-in" data-fragment-index="4">
+                    You use these daily. But have you <span class="highlight-green">BUILT</span> with them?
+                </div>
+            </section>
+
+            <!-- SLIDE 4: What You Can Do (As User) -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">AS AN END USER, YOU CAN:</h2>
+                <div class="user-capabilities">
+                    <div class="capability-item fragment fade-up" data-fragment-index="1">
+                        <div class="capability-icon">💬</div>
+                        <div class="capability-content">
+                            <h3>ASK QUESTIONS</h3>
+                            <div class="capability-example">"Explain quantum computing in simple terms"</div>
+                            <div class="capability-arrow">→</div>
+                            <div class="capability-result">Get instant explanations</div>
+                        </div>
+                    </div>
+                    <div class="capability-item fragment fade-up" data-fragment-index="2">
+                        <div class="capability-icon">✍️</div>
+                        <div class="capability-content">
+                            <h3>GENERATE CONTENT</h3>
+                            <div class="capability-example">"Write a blog post about AI in healthcare"</div>
+                            <div class="capability-arrow">→</div>
+                            <div class="capability-result">Get full articles in seconds</div>
+                        </div>
+                    </div>
+                    <div class="capability-item fragment fade-up" data-fragment-index="3">
+                        <div class="capability-icon">🖼️</div>
+                        <div class="capability-content">
+                            <h3>CREATE VISUALS</h3>
+                            <div class="capability-example">"A sunset over mountains, digital art style"</div>
+                            <div class="capability-arrow">→</div>
+                            <div class="capability-result">Get stunning artwork</div>
+                        </div>
+                    </div>
+                    <div class="capability-item fragment fade-up" data-fragment-index="4">
+                        <div class="capability-icon">🔍</div>
+                        <div class="capability-content">
+                            <h3>RESEARCH TOPICS</h3>
+                            <div class="capability-example">"Latest trends in web development 2025"</div>
+                            <div class="capability-arrow">→</div>
+                            <div class="capability-result">Get comprehensive summaries</div>
+                        </div>
+                    </div>
+                </div>
+                <p class="capability-note fragment fade-in" data-fragment-index="5">
+                    This is powerful. But it's just scratching the surface.
+                </p>
+            </section>
+
+            <!-- SLIDE 5: The "But What If" Moment -->
+            <section class="dark-bg impact-slide" data-transition="zoom">
+                <div class="centered-content">
+                    <p class="stage-1 fragment fade-in-then-semi-out" data-fragment-index="1">
+                        You can USE these tools.
+                    </p>
+                    <p class="stage-2 fragment fade-in-then-semi-out" data-fragment-index="2">
+                        But what if...
+                    </p>
+                    <h1 class="stage-3 fragment zoom-in" data-fragment-index="3">
+                        YOU COULD BUILD<br>
+                        <span class="highlight-green glow">THESE TOOLS?</span>
+                    </h1>
+                </div>
+                <div class="question-mark-bg"></div>
+            </section>
+
+            <!-- SLIDE 6: Imagine Building This -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">WHAT IF YOUR CODE COULD...</h2>
+                <div class="imagine-section">
+                    <div class="imagine-left">
+                        <div class="imagine-item fragment fade-up" data-fragment-index="1">
+                            <span class="imagine-icon">📧</span>
+                            <div class="imagine-text">
+                                <h4>READ EMAILS AUTOMATICALLY</h4>
+                                <ul>
+                                    <li>Extract action items</li>
+                                    <li>Reply to customers</li>
+                                    <li>Categorize by urgency</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="imagine-item fragment fade-up" data-fragment-index="2">
+                            <span class="imagine-icon">📊</span>
+                            <div class="imagine-text">
+                                <h4>ANALYZE DOCUMENTS</h4>
+                                <ul>
+                                    <li>Summarize 100-page PDFs</li>
+                                    <li>Answer questions about data</li>
+                                    <li>Extract key insights</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="imagine-item fragment fade-up" data-fragment-index="3">
+                            <span class="imagine-icon">🤖</span>
+                            <div class="imagine-text">
+                                <h4>CREATE AI ASSISTANTS</h4>
+                                <ul>
+                                    <li>Customer support bots</li>
+                                    <li>Personal research agents</li>
+                                    <li>Code review assistants</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="imagine-item fragment fade-up" data-fragment-index="4">
+                            <span class="imagine-icon">🎨</span>
+                            <div class="imagine-text">
+                                <h4>GENERATE CONTENT</h4>
+                                <ul>
+                                    <li>Product descriptions</li>
+                                    <li>Marketing copy</li>
+                                    <li>Code documentation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="imagine-right fragment fade-in" data-fragment-index="5">
+                        <div class="imagine-flow">
+                            <div class="flow-step">Your Application</div>
+                            <div class="flow-arrow">↓</div>
+                            <div class="flow-step flow-code">[Your Code]</div>
+                            <div class="flow-arrow">↓</div>
+                            <div class="flow-step">Connects to LLM API</div>
+                            <div class="flow-arrow">↓</div>
+                            <div class="flow-step flow-ai">[AI Processing]</div>
+                            <div class="flow-arrow">↓</div>
+                            <div class="flow-step">Returns Smart Results</div>
+                            <div class="flow-arrow">↓</div>
+                            <div class="flow-step flow-magic">[Your User Sees Magic]</div>
+                            <div class="flow-emphasis">
+                                <p>All in <span class="highlight-green">YOUR</span> code.</p>
+                                <p>Under <span class="highlight-green">YOUR</span> control.</p>
+                                <p>With <span class="highlight-green">YOUR</span> creativity.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 7: Real Examples - AI Native Apps -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">APPS BUILT BY DEVELOPERS LIKE YOU</h2>
+                <div class="examples-grid">
+                    <div class="example-card fragment fade-up" data-fragment-index="1">
+                        <h3>LTX STUDIO</h3>
+                        <p class="example-tag">AI Video Creation Platform</p>
+                        <p class="example-quote">"Write a story → Get video"</p>
+                        <div class="example-tech">
+                            <span>GPT-4</span>
+                            <span>Stable Diffusion</span>
+                            <span>Video AI</span>
+                        </div>
+                        <p class="example-url">ltx.studio</p>
+                    </div>
+                    <div class="example-card fragment fade-up" data-fragment-index="1">
+                        <h3>JULIUS AI</h3>
+                        <p class="example-tag">AI Data Analyst</p>
+                        <p class="example-quote">"Upload CSV → Ask in English"</p>
+                        <div class="example-tech">
+                            <span>GPT-4</span>
+                            <span>Code Interpreter</span>
+                            <span>Data Viz</span>
+                        </div>
+                        <p class="example-url">julius.ai</p>
+                    </div>
+                    <div class="example-card fragment fade-up" data-fragment-index="2">
+                        <h3>NOTION AI</h3>
+                        <p class="example-tag">Writing Assistant</p>
+                        <p class="example-quote">"Highlight text → AI improves"</p>
+                        <div class="example-tech">
+                            <span>Custom LLMs</span>
+                            <span>RAG</span>
+                            <span>Integration</span>
+                        </div>
+                        <p class="example-url">notion.so/ai</p>
+                    </div>
+                    <div class="example-card fragment fade-up" data-fragment-index="2">
+                        <h3>PERPLEXITY</h3>
+                        <p class="example-tag">AI-Powered Search</p>
+                        <p class="example-quote">"Ask → Get sourced answers"</p>
+                        <div class="example-tech">
+                            <span>LLMs</span>
+                            <span>Web Search</span>
+                            <span>Citations</span>
+                        </div>
+                        <p class="example-url">perplexity.ai</p>
+                    </div>
+                    <div class="example-card fragment fade-up" data-fragment-index="3">
+                        <h3>CURSOR</h3>
+                        <p class="example-tag">AI Code Editor</p>
+                        <p class="example-quote">"Describe feature → AI codes"</p>
+                        <div class="example-tech">
+                            <span>GPT-4</span>
+                            <span>Code Context</span>
+                            <span>IDE Integration</span>
+                        </div>
+                        <p class="example-url">cursor.sh</p>
+                    </div>
+                    <div class="example-card fragment fade-up" data-fragment-index="3">
+                        <h3>DURABLE.CO</h3>
+                        <p class="example-tag">Website Builder</p>
+                        <p class="example-quote">"Tell about business → Site"</p>
+                        <div class="example-tech">
+                            <span>GPT-4</span>
+                            <span>Template Gen</span>
+                            <span>Web Builder</span>
+                        </div>
+                        <p class="example-url">durable.co</p>
+                    </div>
+                </div>
+                <div class="examples-callout fragment fade-in" data-fragment-index="4">
+                    These aren't built by PhD researchers.<br>
+                    They're built by developers who learned to integrate LLMs.<br>
+                    <span class="highlight-green">Just like you're about to do.</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 8: The Market Reality -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">WHY THIS MATTERS NOW</h2>
+                <div class="market-stats">
+                    <div class="stat-box fragment fade-up" data-fragment-index="1">
+                        <div class="stat-icon">📈</div>
+                        <h3>MARKET GROWTH</h3>
+                        <div class="stat-number">$196B (2023)</div>
+                        <div class="stat-arrow">→</div>
+                        <div class="stat-number highlight-green">$1.8T (2030)</div>
+                        <p class="stat-detail">7-Year CAGR: 37%</p>
+                    </div>
+                    <div class="stat-box fragment fade-up" data-fragment-index="2">
+                        <div class="stat-icon">💼</div>
+                        <h3>JOB OPENINGS</h3>
+                        <div class="stat-growth">↑ 300% in 2024</div>
+                        <p class="stat-detail">"AI Engineer" roles</p>
+                        <div class="stat-growth">↑ 450% in 2024</div>
+                        <p class="stat-detail">"LLM Integration"</p>
+                        <p class="stat-companies">EVERY tech company hiring</p>
+                    </div>
+                    <div class="stat-box fragment fade-up" data-fragment-index="3">
+                        <div class="stat-icon">🏆</div>
+                        <h3>SALARY RANGE</h3>
+                        <div class="salary-tier">
+                            <strong>Freshers:</strong> ₹8-25 LPA
+                        </div>
+                        <div class="salary-tier">
+                            <strong>2-3 Years:</strong> ₹15-35 LPA
+                        </div>
+                        <div class="salary-tier">
+                            <strong>Senior/Lead:</strong> ₹35-60 LPA
+                        </div>
+                    </div>
+                </div>
+                <div class="job-listings fragment fade-in" data-fragment-index="4">
+                    <h3>LIVE OPENINGS (This Week):</h3>
+                    <ul class="job-list">
+                        <li>Zomato: Backend Engineer (AI Features) - ₹18-28 LPA - Bangalore</li>
+                        <li>Razorpay: Full Stack Engineer (LLM Integration) - ₹15-25L - Bangalore</li>
+                        <li>Cred: Product Engineer (AI/ML) - ₹20-35 LPA - Bangalore</li>
+                        <li>Swiggy: AI Integration Engineer - ₹16-30 LPA - Bangalore</li>
+                        <li>Paytm: Backend Engineer (AI) - ₹14-24 LPA - Noida</li>
+                        <li>Zepto: Founding Engineer (AI Products) - ₹12-20L + Equity - Mumbai</li>
+                    </ul>
+                    <p class="job-more">+ 200+ more roles on AngelList, LinkedIn, Naukri, Instahyre</p>
+                </div>
+                <div class="market-emphasis fragment fade-in" data-fragment-index="5">
+                    This isn't hype. This is the new baseline for developers.<br>
+                    <span class="highlight-green">Learn this now, or get left behind in 2025.</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 9: Your Learning Outcomes -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">BY THE END OF TODAY</h2>
+                <div class="outcomes-section">
+                    <div class="outcomes-column">
+                        <h3>🎯 TECHNICAL SKILLS YOU'LL GAIN</h3>
+                        <div class="outcome-item fragment fade-up" data-fragment-index="1">
+                            <div class="outcome-check">✅</div>
+                            <div class="outcome-text">
+                                <strong>Make your first LLM API call</strong>
+                                <p>(OpenAI/Anthropic)</p>
+                            </div>
+                        </div>
+                        <div class="outcome-item fragment fade-up" data-fragment-index="2">
+                            <div class="outcome-check">✅</div>
+                            <div class="outcome-text">
+                                <strong>Build a working chatbot</strong>
+                                <p>(With personality & memory)</p>
+                            </div>
+                        </div>
+                        <div class="outcome-item fragment fade-up" data-fragment-index="3">
+                            <div class="outcome-check">✅</div>
+                            <div class="outcome-text">
+                                <strong>Understand RAG architecture</strong>
+                                <p>(How to use your own data)</p>
+                            </div>
+                        </div>
+                        <div class="outcome-item fragment fade-up" data-fragment-index="4">
+                            <div class="outcome-check">✅</div>
+                            <div class="outcome-text">
+                                <strong>Integrate AI into any app</strong>
+                                <p>(Function calling & tools)</p>
+                            </div>
+                        </div>
+                        <div class="outcome-item fragment fade-up" data-fragment-index="5">
+                            <div class="outcome-check">✅</div>
+                            <div class="outcome-text">
+                                <strong>Write production-ready code</strong>
+                                <p>(Not just tutorials)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="outcomes-column">
+                        <h3>🎯 CAREER CLARITY YOU'LL HAVE</h3>
+                        <div class="outcome-item fragment fade-up" data-fragment-index="1">
+                            <div class="outcome-check">✅</div>
+                            <div class="outcome-text">
+                                <strong>Know exactly what jobs exist</strong>
+                                <p>(Real roles, not buzzwords)</p>
+                            </div>
+                        </div>
+                        <div class="outcome-item fragment fade-up" data-fragment-index="2">
+                            <div class="outcome-check">✅</div>
+                            <div class="outcome-text">
+                                <strong>Understand the skill gap</strong>
+                                <p>(What to learn next)</p>
+                            </div>
+                        </div>
+                        <div class="outcome-item fragment fade-up" data-fragment-index="3">
+                            <div class="outcome-check">✅</div>
+                            <div class="outcome-text">
+                                <strong>Have a 5-project roadmap</strong>
+                                <p>(Step by step, actionable)</p>
+                            </div>
+                        </div>
+                        <div class="outcome-item fragment fade-up" data-fragment-index="4">
+                            <div class="outcome-check">✅</div>
+                            <div class="outcome-text">
+                                <strong>Know salary expectations</strong>
+                                <p>(Realistic, city-wise)</p>
+                            </div>
+                        </div>
+                        <div class="outcome-item fragment fade-up" data-fragment-index="5">
+                            <div class="outcome-check">✅</div>
+                            <div class="outcome-text">
+                                <strong>Get community access</strong>
+                                <p>(Discord, resources, mentors)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="outcomes-emphasis fragment fade-in" data-fragment-index="6">
+                    <h4>MOST IMPORTANTLY:</h4>
+                    <p>You'll go from "AI is scary and complex"</p>
+                    <p class="highlight-green">to</p>
+                    <p>"I can build this and I know what's next"</p>
+                </div>
+            </section>
+
+            <!-- SLIDE 10: What You'll Actually Build -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">TODAY'S LIVE CODING PROJECTS</h2>
+                <div class="projects-timeline">
+                    <div class="project-node fragment fade-up" data-fragment-index="1">
+                        <div class="project-icon">🤖</div>
+                        <div class="project-header">
+                            <h3>PROJECT 1</h3>
+                            <span class="project-time">10 MINS</span>
+                        </div>
+                        <h4>BASIC CHATBOT</h4>
+                        <p class="project-desc">10 lines of code<br>"Hello World" of AI</p>
+                        <div class="project-skills">
+                            <div>├─ API calls</div>
+                            <div>├─ System prompts</div>
+                            <div>├─ Temperature</div>
+                            <div>└─ Getting responses</div>
+                        </div>
+                    </div>
+                    <div class="project-arrow fragment fade-in" data-fragment-index="2">→</div>
+                    <div class="project-node fragment fade-up" data-fragment-index="2">
+                        <div class="project-icon">💬</div>
+                        <div class="project-header">
+                            <h3>PROJECT 2</h3>
+                            <span class="project-time">15 MINS</span>
+                        </div>
+                        <h4>MEMORY CHATBOT</h4>
+                        <p class="project-desc">Add conversation<br>Back-and-forth chat</p>
+                        <div class="project-skills">
+                            <div>├─ Message history</div>
+                            <div>├─ Context management</div>
+                            <div>├─ User experience</div>
+                            <div>└─ Conversation flow</div>
+                        </div>
+                    </div>
+                    <div class="project-arrow fragment fade-in" data-fragment-index="3">→</div>
+                    <div class="project-node fragment fade-up" data-fragment-index="3">
+                        <div class="project-icon">🔧</div>
+                        <div class="project-header">
+                            <h3>PROJECT 3</h3>
+                            <span class="project-time">15 MINS</span>
+                        </div>
+                        <h4>FUNCTION-CALLING BOT</h4>
+                        <p class="project-desc">Bot that uses tools<br>Actually DO things</p>
+                        <div class="project-skills">
+                            <div>├─ Tool integration</div>
+                            <div>├─ Function calling</div>
+                            <div>├─ JSON parsing</div>
+                            <div>└─ Real-world apps</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-bonus fragment fade-in" data-fragment-index="4">
+                    PLUS: After today, you'll get a 5-project roadmap<br>
+                    <span class="highlight-green">(Each project builds on the last, takes you to job-ready)</span>
+                </div>
+            </section>
+
+            <!-- SLIDE 11: The Workshop Map -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">YOUR 2-HOUR JOURNEY MAP</h2>
+                <div class="journey-grid">
+                    <div class="journey-card journey-start fragment zoom-in" data-fragment-index="1">
+                        <div class="journey-badge">START</div>
+                        <div class="journey-icon">👤</div>
+                        <h3>You're Here</h3>
+                        <p class="journey-role">AI User</p>
+                        <p class="journey-desc">Uses ChatGPT<br>Knows prompts</p>
+                    </div>
+                    <div class="journey-card fragment fade-up" data-fragment-index="2">
+                        <div class="journey-badge">HOUR 1</div>
+                        <div class="journey-icon">📚</div>
+                        <h3>Learn & Build</h3>
+                        <div class="journey-steps">
+                            <div class="journey-step">📖 Theory (15 min)</div>
+                            <div class="journey-step">🤖 Project 1 (10 min)</div>
+                            <div class="journey-step">💬 Project 2 (15 min)</div>
+                            <div class="journey-step">🔧 Project 3 (15 min)</div>
+                        </div>
+                    </div>
+                    <div class="journey-card fragment fade-up" data-fragment-index="3">
+                        <div class="journey-badge">HOUR 2</div>
+                        <div class="journey-icon">🎯</div>
+                        <h3>Career Path</h3>
+                        <div class="journey-steps">
+                            <div class="journey-step">🗺️ Roadmap (20 min)</div>
+                            <div class="journey-step">💼 Real Jobs (15 min)</div>
+                            <div class="journey-step">❓ Q&A (15 min)</div>
+                        </div>
+                    </div>
+                    <div class="journey-card journey-end fragment zoom-in" data-fragment-index="4">
+                        <div class="journey-badge">FINISH</div>
+                        <div class="journey-icon">🚀</div>
+                        <h3>You Leave As</h3>
+                        <p class="journey-role highlight-green">AI Builder</p>
+                        <p class="journey-desc">Writes AI code<br>Ready to build</p>
+                    </div>
+                </div>
+                <div class="journey-progress fragment fade-in" data-fragment-index="5">
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>
+                    <p class="progress-text">Next up: Understanding how LLMs actually work <span class="highlight-green">(15 minutes)</span></p>
+                </div>
+            </section>
+
+            <!-- SLIDE 12: Section Break - Theory -->
+            <section class="dark-bg section-break" data-transition="zoom">
+                <div class="section-number">01</div>
+                <h1 class="section-title">
+                    <span class="highlight-green">HOW LLMs ACTUALLY WORK</span>
+                </h1>
+                <p class="section-subtitle">15 minutes of theory that makes everything click</p>
+                <p class="section-note">(Then we code for 30 minutes)</p>
+            </section>
+
+            <!-- SLIDE 13: What is an LLM? -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">LET'S DEMYSTIFY THIS</h2>
+                <div class="demystify-layout">
+                    <div class="demystify-left">
+                        <div class="definition-hero fragment fade-in" data-fragment-index="1">
+                            <p class="definition-label">A Large Language Model (LLM) is:</p>
+                            <div class="definition-statement">
+                                <p class="definition-large">TEXT IN</p>
+                                <p class="definition-arrow">↓</p>
+                                <p class="definition-api">API</p>
+                                <p class="definition-arrow">↓</p>
+                                <p class="definition-large">TEXT OUT</p>
+                            </div>
+                            <p class="definition-emphasis">That's literally it.</p>
+                        </div>
+                        <div class="reality-check fragment fade-in" data-fragment-index="3">
+                            <h4>❌ It's NOT:</h4>
+                            <div class="reality-grid">
+                                <div class="reality-item">Magic ✨</div>
+                                <div class="reality-item">Conscious 🧠</div>
+                                <div class="reality-item">Sentient 👁️</div>
+                            </div>
+                            <h4 class="highlight-green">✓ It IS:</h4>
+                            <p>Really good pattern matching from billions of examples</p>
+                        </div>
+                    </div>
+                    <div class="demystify-right fragment fade-in" data-fragment-index="2">
+                        <div class="flow-visual">
+                            <div class="flow-step flow-input">
+                                <div class="flow-icon">📝</div>
+                                <h4>Your Input</h4>
+                                <p class="flow-example">"Explain quantum<br>computing"</p>
+                                <span class="flow-tag">Plain Text</span>
+                            </div>
+                            <div class="flow-connector">
+                                <div class="flow-line"></div>
+                                <div class="flow-dot"></div>
+                            </div>
+                            <div class="flow-step flow-process">
+                                <div class="flow-icon">⚙️</div>
+                                <h4>LLM API</h4>
+                                <p class="flow-example">OpenAI<br>Anthropic<br>Google</p>
+                                <span class="flow-tag flow-tag-green">Processing</span>
+                            </div>
+                            <div class="flow-connector">
+                                <div class="flow-line"></div>
+                                <div class="flow-dot"></div>
+                            </div>
+                            <div class="flow-step flow-output">
+                                <div class="flow-icon">💬</div>
+                                <h4>Your Output</h4>
+                                <p class="flow-example">"Quantum computing<br>uses qubits..."</p>
+                                <span class="flow-tag">Plain Text</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 14: How Does It "Understand"? -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">IT DOESN'T "UNDERSTAND" - IT PREDICTS</h2>
+                <div class="prediction-layout">
+                    <div class="prediction-col fragment fade-left" data-fragment-index="1">
+                        <div class="predict-card predict-simple">
+                            <div class="predict-header">
+                                <div class="predict-icon">📱</div>
+                                <h3>Your Phone</h3>
+                            </div>
+                            <div class="predict-demo">
+                                <p class="predict-input">You type:</p>
+                                <div class="predict-typing">"How are</div>
+                                <p class="predict-arrow">↓</p>
+                                <div class="predict-result">
+                                    <span class="predict-word">"you"</span>
+                                    <span class="predict-percent">100%</span>
+                                </div>
+                            </div>
+                            <div class="predict-features">
+                                <div class="feature-tag">Simple</div>
+                                <div class="feature-tag">1 Option</div>
+                                <div class="feature-tag">Grammar Rules</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prediction-vs fragment fade-in" data-fragment-index="2">
+                        <div class="vs-circle">VS</div>
+                    </div>
+                    <div class="prediction-col fragment fade-right" data-fragment-index="3">
+                        <div class="predict-card predict-complex">
+                            <div class="predict-header">
+                                <div class="predict-icon">🤖</div>
+                                <h3>LLM (GPT)</h3>
+                            </div>
+                            <div class="predict-demo">
+                                <p class="predict-input">You type:</p>
+                                <div class="predict-typing">"The capital of"</div>
+                                <p class="predict-arrow">↓</p>
+                                <div class="predict-probabilities">
+                                    <div class="prob-row">
+                                        <span class="prob-word">India</span>
+                                        <div class="prob-bar">
+                                            <div class="prob-fill" style="width: 85%;"></div>
+                                            <span class="prob-value">85%</span>
+                                        </div>
+                                    </div>
+                                    <div class="prob-row">
+                                        <span class="prob-word">France</span>
+                                        <div class="prob-bar">
+                                            <div class="prob-fill" style="width: 8%;"></div>
+                                            <span class="prob-value">8%</span>
+                                        </div>
+                                    </div>
+                                    <div class="prob-row">
+                                        <span class="prob-word">US</span>
+                                        <div class="prob-bar">
+                                            <div class="prob-fill" style="width: 4%;"></div>
+                                            <span class="prob-value">4%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="predict-features">
+                                <div class="feature-tag">Complex</div>
+                                <div class="feature-tag">Multiple Options</div>
+                                <div class="feature-tag">Training Data</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="prediction-insight fragment fade-up" data-fragment-index="4">
+                    <div class="insight-content">
+                        <h4>How It Works:</h4>
+                        <p>1. Learned patterns from <strong>billions</strong> of sentences</p>
+                        <p>2. Calculates <strong>probability distribution</strong> for next token</p>
+                        <p>3. Picks most likely token → Repeats → Full response</p>
+                    </div>
+                    <div class="insight-warning">
+                        <span class="warning-icon">⚠️</span>
+                        <p><strong>Why it makes mistakes:</strong></p>
+                        <p class="highlight-green">High probability ≠ Always correct!</p>
+                        <p>Sometimes wrong answer has higher probability in training data</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 15: The 4 Core Concepts -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">4 CONCEPTS TO MASTER</h2>
+                <p class="concepts-subtitle">(Everything else can wait)</p>
+                <div class="concepts-grid">
+                    <div class="concept-card fragment fade-up" data-fragment-index="1">
+                        <div class="concept-icon">🪙</div>
+                        <h3>TOKENS</h3>
+                        <p class="concept-desc">Currency of AI<br>Everything costs tokens</p>
+                    </div>
+                    <div class="concept-card fragment fade-up" data-fragment-index="2">
+                        <div class="concept-icon">🧠</div>
+                        <h3>CONTEXT WINDOW</h3>
+                        <p class="concept-desc">Short-term memory<br>Limited but large</p>
+                    </div>
+                    <div class="concept-card fragment fade-up" data-fragment-index="3">
+                        <div class="concept-icon">🌡️</div>
+                        <h3>TEMPERATURE</h3>
+                        <p class="concept-desc">Creativity dial<br>0=boring, 2=creative</p>
+                    </div>
+                    <div class="concept-card fragment fade-up" data-fragment-index="4">
+                        <div class="concept-icon">📋</div>
+                        <h3>SYSTEM PROMPTS</h3>
+                        <p class="concept-desc">Personality setting<br>Define behavior</p>
+                    </div>
+                </div>
+                <p class="concepts-note fragment fade-in" data-fragment-index="5">
+                    We'll cover each one in detail. These 4 concepts are 80% of what you need.
+                </p>
+            </section>
+
+            <!-- SLIDE 16: Concept #1 - Tokens -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">🪙 CONCEPT #1: TOKENS = CURRENCY OF AI</h2>
+                <div class="token-layout">
+                    <div class="token-hero fragment zoom-in" data-fragment-index="1">
+                        <div class="token-pipeline">
+                            <div class="pipeline-step">
+                                <span class="pipeline-label">Input</span>
+                                <div class="pipeline-box">"Hello world"</div>
+                            </div>
+                            <div class="pipeline-arrow">→</div>
+                            <div class="pipeline-step">
+                                <span class="pipeline-label">Tokenize</span>
+                                <div class="pipeline-box">["Hello", " world"]</div>
+                            </div>
+                            <div class="pipeline-arrow">→</div>
+                            <div class="pipeline-step">
+                                <span class="pipeline-label">Numbers</span>
+                                <div class="pipeline-box">[15496, 995]</div>
+                            </div>
+                            <div class="pipeline-arrow">→</div>
+                            <div class="pipeline-step">
+                                <span class="pipeline-label">Process</span>
+                                <div class="pipeline-box pipeline-process">LLM 🧠</div>
+                            </div>
+                        </div>
+                        <p class="token-tagline">Everything is converted to tokens (numbers)</p>
+                    </div>
+                    <div class="token-comparison-grid fragment fade-up" data-fragment-index="2">
+                        <div class="token-compare-card token-efficient">
+                            <div class="compare-header">
+                                <div class="compare-icon">🇬🇧</div>
+                                <h3>ENGLISH TEXT</h3>
+                            </div>
+                            <div class="compare-example">"Hello world"</div>
+                            <div class="compare-metrics">
+                                <div class="metric">
+                                    <span class="metric-label">Tokens:</span>
+                                    <span class="metric-value">2</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-label">Cost:</span>
+                                    <span class="metric-value">$0.002</span>
+                                </div>
+                            </div>
+                            <div class="compare-badge badge-good">✓ More Efficient</div>
+                        </div>
+                        <div class="token-compare-card token-inefficient">
+                            <div class="compare-header">
+                                <div class="compare-icon">🇮🇳</div>
+                                <h3>HINDI TEXT</h3>
+                            </div>
+                            <div class="compare-example">"नमस्ते दुनिया"</div>
+                            <div class="compare-metrics">
+                                <div class="metric">
+                                    <span class="metric-label">Tokens:</span>
+                                    <span class="metric-value">6</span>
+                                </div>
+                                <div class="metric">
+                                    <span class="metric-label">Cost:</span>
+                                    <span class="metric-value">$0.006</span>
+                                </div>
+                            </div>
+                            <div class="compare-badge badge-warn">3x More Tokens</div>
+                        </div>
+                    </div>
+                    <div class="token-pricing fragment fade-in" data-fragment-index="3">
+                        <h4>💰 Pricing (GPT-4):</h4>
+                        <div class="pricing-row">
+                            <span class="pricing-label">Input:</span>
+                            <span class="pricing-value">$0.03 per 1K tokens</span>
+                        </div>
+                        <div class="pricing-row">
+                            <span class="pricing-label">Output:</span>
+                            <span class="pricing-value">$0.06 per 1K tokens</span>
+                        </div>
+                        <p class="pricing-tip"><strong class="highlight-green">Pro Tip:</strong> Shorter prompts = Lower cost = Faster responses</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 17: Concept #2 - Context Window -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">🧠 CONCEPT #2: CONTEXT WINDOW = MEMORY</h2>
+                <div class="context-layout">
+                    <div class="context-hero fragment fade-in" data-fragment-index="1">
+                        <div class="context-analogy-box">
+                            <div class="analogy-icon">💭</div>
+                            <h3>Think: WhatsApp Status</h3>
+                            <p>After 24 hours → Gone! Not because it wants to forget, but because that's how it's designed.</p>
+                        </div>
+                    </div>
+                    <div class="context-visual-section fragment fade-up" data-fragment-index="2">
+                        <div class="context-meter">
+                            <h4>Context Window = 128K tokens</h4>
+                            <div class="meter-container">
+                                <div class="meter-bar">
+                                    <div class="meter-fill"></div>
+                                    <div class="meter-segments">
+                                        <span>System</span>
+                                        <span>Msg 1</span>
+                                        <span>Msg 2</span>
+                                        <span>Msg 3</span>
+                                        <span>...</span>
+                                    </div>
+                                </div>
+                                <p class="meter-label">When full → Oldest messages get pushed out 📤</p>
+                            </div>
+                        </div>
+                        <div class="context-scale">
+                            <div class="scale-item">
+                                <span class="scale-icon">📊</span>
+                                <p><strong>128K tokens</strong></p>
+                            </div>
+                            <div class="scale-equals">=</div>
+                            <div class="scale-item">
+                                <span class="scale-icon">📝</span>
+                                <p><strong>~96,000 words</strong></p>
+                            </div>
+                            <div class="scale-equals">=</div>
+                            <div class="scale-item">
+                                <span class="scale-icon">📚</span>
+                                <p><strong>Harry Potter book</strong></p>
+                            </div>
+                            <div class="scale-equals">=</div>
+                            <div class="scale-item">
+                                <span class="scale-icon">📄</span>
+                                <p><strong>~200 pages</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="context-grid fragment fade-in" data-fragment-index="3">
+                        <div class="context-info-card">
+                            <div class="info-icon">❓</div>
+                            <h4>WHY IT FORGETS</h4>
+                            <p>Not a bug - it's by design!</p>
+                            <p>Context window fills up</p>
+                        </div>
+                        <div class="context-info-card">
+                            <div class="info-icon">⚡</div>
+                            <h4>WHY IT'S LIMITED</h4>
+                            <p>Processing cost grows</p>
+                            <p>exponentially with size</p>
+                        </div>
+                        <div class="context-info-card context-highlight">
+                            <div class="info-icon">🔍</div>
+                            <h4>WHY RAG EXISTS</h4>
+                            <p>Store docs externally,</p>
+                            <p>fetch only relevant parts</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 18: Concept #3 - Temperature -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">🌡️ CONCEPT #3: TEMPERATURE = CREATIVITY DIAL</h2>
+                <div class="temperature-layout">
+                    <div class="temp-scale-visual fragment zoom-in" data-fragment-index="1">
+                        <div class="temp-slider-modern">
+                            <div class="slider-track">
+                                <div class="slider-gradient"></div>
+                                <div class="slider-markers">
+                                    <span class="marker">0</span>
+                                    <span class="marker">0.5</span>
+                                    <span class="marker">1.0</span>
+                                    <span class="marker">1.5</span>
+                                    <span class="marker">2.0</span>
+                                </div>
+                            </div>
+                            <div class="slider-labels">
+                                <div class="label-left">
+                                    <div class="label-icon">🧊</div>
+                                    <p><strong>Cold</strong></p>
+                                    <p>Boring • Predictable</p>
+                                </div>
+                                <div class="label-right">
+                                    <div class="label-icon">🔥</div>
+                                    <p><strong>Hot</strong></p>
+                                    <p>Creative • Random</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="temp-examples-grid fragment fade-up" data-fragment-index="2">
+                        <div class="temp-card temp-cold">
+                            <div class="temp-header">
+                                <span class="temp-badge">Temp: 0.2</span>
+                                <span class="temp-emoji">🧊</span>
+                            </div>
+                            <p class="temp-prompt">"Describe Delhi"</p>
+                            <div class="temp-output-box">
+                                <p>"Delhi is the capital of India, located in the north."</p>
+                            </div>
+                            <div class="temp-tags">
+                                <span class="tag">Factual</span>
+                                <span class="tag">Safe</span>
+                            </div>
+                        </div>
+                        <div class="temp-card temp-balanced">
+                            <div class="temp-header">
+                                <span class="temp-badge temp-badge-green">Temp: 1.0</span>
+                                <span class="temp-emoji">⚖️</span>
+                            </div>
+                            <p class="temp-prompt">"Describe Delhi"</p>
+                            <div class="temp-output-box">
+                                <p>"Delhi is a vibrant metropolis blending rich history with modern chaos."</p>
+                            </div>
+                            <div class="temp-tags">
+                                <span class="tag tag-green">Balanced</span>
+                                <span class="tag tag-green">Recommended</span>
+                            </div>
+                        </div>
+                        <div class="temp-card temp-hot">
+                            <div class="temp-header">
+                                <span class="temp-badge">Temp: 1.8</span>
+                                <span class="temp-emoji">🔥</span>
+                            </div>
+                            <p class="temp-prompt">"Describe Delhi"</p>
+                            <div class="temp-output-box">
+                                <p>"Where ancient emperors' whispers dance with monsoon rains!"</p>
+                            </div>
+                            <div class="temp-tags">
+                                <span class="tag">Creative</span>
+                                <span class="tag">Poetic</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="temp-guide fragment fade-in" data-fragment-index="3">
+                        <h4>When to use what:</h4>
+                        <div class="guide-grid">
+                            <div class="guide-item"><strong>0.0-0.3:</strong> Factual Q&A, data extraction</div>
+                            <div class="guide-item"><strong>0.5-0.7:</strong> Chatbots, customer support</div>
+                            <div class="guide-item"><strong>0.8-1.2:</strong> Creative writing, brainstorming</div>
+                            <div class="guide-item"><strong>1.5-2.0:</strong> Experimental art, poetry ⚠️</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 19: Concept #4 - System Prompts -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">📋 CONCEPT #4: SYSTEM PROMPTS = PERSONALITY</h2>
+                <div class="prompts-layout">
+                    <div class="prompts-hero fragment fade-in" data-fragment-index="1">
+                        <div class="hero-box">
+                            <p class="hero-tagline">Same Input → Different System Prompt → Completely Different Response</p>
+                        </div>
+                    </div>
+                    <div class="prompts-comparison fragment fade-up" data-fragment-index="2">
+                        <div class="prompt-card prompt-default">
+                            <div class="prompt-badge">DEFAULT</div>
+                            <div class="prompt-section">
+                                <span class="prompt-label">System:</span>
+                                <p class="prompt-text">"You are a helpful assistant."</p>
+                            </div>
+                            <div class="prompt-section">
+                                <span class="prompt-label">User:</span>
+                                <p class="prompt-text">"Tell me about coding"</p>
+                            </div>
+                            <div class="prompt-divider">↓</div>
+                            <div class="prompt-response-box">
+                                <p>"Coding is the process of writing instructions for computers..."</p>
+                            </div>
+                            <div class="prompt-traits">
+                                <span class="trait">Professional</span>
+                                <span class="trait">Formal</span>
+                            </div>
+                        </div>
+                        <div class="prompt-card prompt-personality">
+                            <div class="prompt-badge prompt-badge-fun">SRK MODE</div>
+                            <div class="prompt-section">
+                                <span class="prompt-label">System:</span>
+                                <p class="prompt-text">"You are Shah Rukh Khan. Talk like him."</p>
+                            </div>
+                            <div class="prompt-section">
+                                <span class="prompt-label">User:</span>
+                                <p class="prompt-text">"Tell me about coding"</p>
+                            </div>
+                            <div class="prompt-divider">↓</div>
+                            <div class="prompt-response-box">
+                                <p>"Arey coding! *spreads arms* It's like writing a love letter to the computer..."</p>
+                            </div>
+                            <div class="prompt-traits">
+                                <span class="trait">Entertaining</span>
+                                <span class="trait">Bollywood</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prompts-more-examples fragment fade-in" data-fragment-index="3">
+                        <div class="more-ex-grid">
+                            <div class="more-ex-item">
+                                <span class="more-ex-icon">🏴‍☠️</span>
+                                <p>"You are a pirate"</p>
+                                <p class="more-ex-result">→ Talks like Jack Sparrow</p>
+                            </div>
+                            <div class="more-ex-item">
+                                <span class="more-ex-icon">👶</span>
+                                <p>"You are a 5-year-old"</p>
+                                <p class="more-ex-result">→ Simple language</p>
+                            </div>
+                            <div class="more-ex-item">
+                                <span class="more-ex-icon">🇮🇳</span>
+                                <p>"You speak only Hindi"</p>
+                                <p class="more-ex-result">→ सभी जवाब हिंदी में</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prompts-controls fragment fade-in" data-fragment-index="4">
+                        <h4>System Prompts Control:</h4>
+                        <div class="controls-grid">
+                            <div class="control-item">
+                                <span class="control-icon">🎭</span>
+                                <p><strong>Tone</strong></p>
+                                <p>Formal/Casual/Funny</p>
+                            </div>
+                            <div class="control-item">
+                                <span class="control-icon">📐</span>
+                                <p><strong>Format</strong></p>
+                                <p>JSON/Markdown/Code</p>
+                            </div>
+                            <div class="control-item">
+                                <span class="control-icon">📏</span>
+                                <p><strong>Rules</strong></p>
+                                <p>Stay on topic, etc.</p>
+                            </div>
+                            <div class="control-item">
+                                <span class="control-icon">😊</span>
+                                <p><strong>Personality</strong></p>
+                                <p>Helpful/Sarcastic/Pro</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 20: Quick Architecture Overview -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">UNDER THE HOOD (5-Minute Version)</h2>
+                <div class="architecture-layout">
+                    <div class="arch-flow-modern fragment fade-in" data-fragment-index="1">
+                        <div class="arch-step arch-input">
+                            <div class="arch-icon">📝</div>
+                            <h3>YOUR INPUT</h3>
+                            <p class="arch-example">"Explain AI"</p>
+                            <span class="arch-tag">Plain Text</span>
+                        </div>
+                        <div class="arch-connector-v">
+                            <div class="connector-line"></div>
+                            <div class="connector-arrow">↓</div>
+                        </div>
+                        <div class="arch-step arch-processing">
+                            <div class="arch-icon">⚙️</div>
+                            <h3>LLM PROCESSING</h3>
+                            <div class="process-steps">
+                                <div class="process-step">1. Tokenization <span>(text → numbers)</span></div>
+                                <div class="process-step">2. Embedding <span>(→ vectors)</span></div>
+                                <div class="process-step">3. Transformer <span>(attention!)</span></div>
+                                <div class="process-step">4. Prediction <span>(probabilities)</span></div>
+                                <div class="process-step">5. De-tokenization <span>(numbers → text)</span></div>
+                            </div>
+                        </div>
+                        <div class="arch-connector-v">
+                            <div class="connector-line"></div>
+                            <div class="connector-arrow">↓</div>
+                        </div>
+                        <div class="arch-step arch-output">
+                            <div class="arch-icon">💬</div>
+                            <h3>YOUR OUTPUT</h3>
+                            <p class="arch-example">"AI is a field of computer science..."</p>
+                            <span class="arch-tag">Generated Text</span>
+                        </div>
+                    </div>
+                    <div class="arch-facts-grid fragment fade-up" data-fragment-index="2">
+                        <div class="fact-card">
+                            <div class="fact-icon">🏗️</div>
+                            <p><strong>Architecture</strong></p>
+                            <p>"Transformer" (2017 breakthrough)</p>
+                        </div>
+                        <div class="fact-card">
+                            <div class="fact-icon">📚</div>
+                            <p><strong>Training Data</strong></p>
+                            <p>Trillions of words</p>
+                        </div>
+                        <div class="fact-card">
+                            <div class="fact-icon">🧮</div>
+                            <p><strong>GPT-4 Size</strong></p>
+                            <p>~1.7 trillion parameters</p>
+                        </div>
+                    </div>
+                    <div class="arch-emphasis fragment zoom-in" data-fragment-index="3">
+                        <div class="emphasis-box">
+                            <h4 class="highlight-green">You don't need to BUILD this.</h4>
+                            <h4>You just need to USE it.</h4>
+                            <div class="emphasis-divider"></div>
+                            <p><strong>What you NEED to know:</strong> How to call it, prompt it, integrate it</p>
+                            <p><strong class="highlight-green">What you'll LEARN today:</strong> Exactly that ✓</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 21: Section Break - Coding Time -->
+            <section class="dark-bg section-break" data-transition="zoom">
+                <div class="section-number">02</div>
+                <h1 class="section-title">
+                    <span class="highlight-green glow">TIME TO BUILD</span>
+                </h1>
+                <p class="section-subtitle">Theory done. Laptops open.</p>
+                <p class="section-note">Let's write code that talks to AI.</p>
+                <p class="section-next">Next 30 minutes = 3 working applications</p>
+            </section>
+
+            <!-- SLIDE 22: Setup Check -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">QUICK SETUP (Everyone Ready?)</h2>
+                <div class="setup-layout">
+                    <div class="setup-checklist-box fragment fade-in" data-fragment-index="1">
+                        <h3>📋 SETUP CHECKLIST:</h3>
+                        <div class="checklist-grid">
+                            <div class="check-item">
+                                <span class="check-box">□</span>
+                                <div class="check-content">
+                                    <p><strong>Python installed?</strong></p>
+                                    <p class="check-test">Test: <code>python --version</code></p>
+                                </div>
+                            </div>
+                            <div class="check-item">
+                                <span class="check-box">□</span>
+                                <div class="check-content">
+                                    <p><strong>Code editor open?</strong></p>
+                                    <p class="check-test">VS Code / PyCharm / Any editor</p>
+                                </div>
+                            </div>
+                            <div class="check-item">
+                                <span class="check-box">□</span>
+                                <div class="check-content">
+                                    <p><strong>OpenAI library?</strong></p>
+                                    <p class="check-test">Run: <code>pip install openai</code></p>
+                                </div>
+                            </div>
+                            <div class="check-item">
+                                <span class="check-box">□</span>
+                                <div class="check-content">
+                                    <p><strong>API Key ready?</strong></p>
+                                    <p class="check-test">Use provided key</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="setup-paths-grid fragment fade-up" data-fragment-index="2">
+                        <div class="path-card path-local">
+                            <div class="path-badge">PATH A</div>
+                            <div class="path-icon">💻</div>
+                            <h3>LOCAL SETUP</h3>
+                            <div class="path-features">
+                                <p>✓ VS Code/PyCharm ready</p>
+                                <p>✓ Python 3.8+ installed</p>
+                                <p>✓ Terminal access</p>
+                            </div>
+                            <p class="path-tag path-tag-preferred">Preferred for learning</p>
+                        </div>
+                        <div class="path-card path-cloud">
+                            <div class="path-badge path-badge-easy">PATH B</div>
+                            <div class="path-icon">☁️</div>
+                            <h3>NO SETUP</h3>
+                            <div class="path-features">
+                                <p>✓ Just need a browser</p>
+                                <p>✓ Google Colab (free)</p>
+                                <p>✓ Everything pre-configured</p>
+                            </div>
+                            <div class="path-qr">
+                                <div class="qr-placeholder">[QR CODE]</div>
+                                <p class="path-link">bit.ly/ai-workshop-code</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="setup-info-box fragment fade-in" data-fragment-index="3">
+                        <div class="info-row">
+                            <span class="info-label">🔑 API KEY:</span>
+                            <span class="info-value">sk-proj-XXXXX <span class="info-note">(I'll share on screen)</span></span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">💰 Cost:</span>
+                            <span class="info-value">~$0.50 for entire workshop <span class="highlight-green">(I'm covering it!)</span></span>
+                        </div>
+                    </div>
+                    <p class="setup-ready fragment zoom-in" data-fragment-index="4">
+                        Everyone set? Hands up when ready! 🙋‍♂️
+                    </p>
+                </div>
+            </section>
+
+            <!-- SLIDE 23: Project 1 Overview -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">PROJECT 1: YOUR FIRST AI-POWERED CHATBOT</h2>
+                <div class="project-card">
+                    <h3>🤖 BASIC CHATBOT</h3>
+                    <div class="project-section">
+                        <h4>What we're building:</h4>
+                        <p>• A simple CLI chatbot</p>
+                        <p>• Takes user input, gets AI response</p>
+                        <p>• 10 lines of actual code</p>
+                    </div>
+                    <div class="project-section">
+                        <h4>What you'll learn:</h4>
+                        <p>• How to make API calls to OpenAI</p>
+                        <p>• How to structure prompts</p>
+                        <p>• System prompts and temperature</p>
+                    </div>
+                    <div class="project-meta">
+                        <span>Time: 10 minutes</span>
+                        <span>Difficulty: 🌶️ (Beginner)</span>
+                    </div>
+                </div>
+                <p class="project-instruction">
+                    Follow along - TYPE the code with me. Don't copy-paste!
+                </p>
+            </section>
+
+            <!-- SLIDE 24: Project 1 - Step 1 -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">STEP 1: Import the Library</h2>
+                <div class="code-slide-layout">
+                    <div class="code-main-section">
+                        <div class="terminal-window fragment fade-in" data-fragment-index="1">
+                            <div class="terminal-header">
+                                <span class="terminal-title">Terminal</span>
+                            </div>
+                            <div class="terminal-body">
+                                <p class="terminal-comment"># First, install the library</p>
+                                <p class="terminal-line"><span class="terminal-prompt">$</span> pip install openai</p>
+                                <p class="terminal-success">✓ Successfully installed openai-1.12.0</p>
+                            </div>
+                        </div>
+                        <div class="code-window fragment fade-in" data-fragment-index="2">
+                            <div class="code-header">
+                                <div class="code-dots">
+                                    <span></span><span></span><span></span>
+                                </div>
+                                <span class="code-filename">chatbot.py</span>
+                            </div>
+                            <div class="code-body">
+                                <pre><code class="python">from openai import OpenAI
+
+# Initialize the client with your API key
+client = OpenAI(api_key="your-api-key-here")</code></pre>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-explanation-section fragment fade-up" data-fragment-index="3">
+                        <div class="explain-card explain-what">
+                            <h4>💡 What's happening?</h4>
+                            <div class="explain-item">
+                                <span class="explain-line">Line 1:</span>
+                                <p>Import the OpenAI library</p>
+                            </div>
+                            <div class="explain-item">
+                                <span class="explain-line">Line 4:</span>
+                                <p>Create a client object for API calls</p>
+                            </div>
+                        </div>
+                        <div class="explain-card explain-issues">
+                            <h4>⚠️ Common Issues:</h4>
+                            <div class="issue-item">
+                                <span class="issue-icon">•</span>
+                                <p>"Module not found" → Run pip install again</p>
+                            </div>
+                            <div class="issue-item">
+                                <span class="issue-icon">•</span>
+                                <p>"API key invalid" → Use provided key</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 25: Project 1 - Step 2 -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">STEP 2: Make Your First API Call</h2>
+                <div class="code-full-layout">
+                    <div class="code-window-large fragment zoom-in" data-fragment-index="1">
+                        <div class="code-header">
+                            <div class="code-dots">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <span class="code-filename">chatbot.py</span>
+                        </div>
+                        <div class="code-body-large">
+                            <pre><code class="python">from openai import OpenAI
+client = OpenAI(api_key="your-key")
+
+# Get user input
+user_message = input("You: ")
+
+# Make the API call
+response = client.chat.completions.create(
+    model="gpt-3.5-turbo",        # Which AI to use
+    temperature=0.7,              # Creativity level
+    messages=[
+        {"role": "system",        # Personality
+         "content": "You are a helpful assistant"},
+        {"role": "user",          # User's question
+         "content": user_message}
+    ]
+)
+
+# Print the response
+print("AI:", response.choices[0].message.content)</code></pre>
+                        </div>
+                    </div>
+                    <div class="code-annotations fragment fade-up" data-fragment-index="2">
+                        <div class="annotation-grid">
+                            <div class="annotation-item">
+                                <span class="annotation-icon">🤖</span>
+                                <div class="annotation-content">
+                                    <strong>model:</strong>
+                                    <p>Which brain to use (3.5 = fast & cheap)</p>
+                                </div>
+                            </div>
+                            <div class="annotation-item">
+                                <span class="annotation-icon">🌡️</span>
+                                <div class="annotation-content">
+                                    <strong>temperature:</strong>
+                                    <p>Creativity dial (0.7 = balanced)</p>
+                                </div>
+                            </div>
+                            <div class="annotation-item">
+                                <span class="annotation-icon">💬</span>
+                                <div class="annotation-content">
+                                    <strong>messages:</strong>
+                                    <p>system (WHO AI is) + user (WHAT you're asking)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 26: Project 1 - Running It -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">LET'S RUN IT! (The Moment of Truth)</h2>
+                <div class="demo-layout">
+                    <div class="terminal-demo-box fragment zoom-in" data-fragment-index="1">
+                        <div class="terminal-header">
+                            <span class="terminal-title">Terminal - chatbot.py</span>
+                            <span class="terminal-status">● Running</span>
+                        </div>
+                        <div class="terminal-content">
+                            <p class="terminal-line"><span class="terminal-prompt">$</span> python chatbot.py</p>
+                            <p class="terminal-input">You: <span class="terminal-text">Explain AI in one sentence</span></p>
+                            <p class="terminal-output">AI: <span class="terminal-text">Artificial Intelligence is the simulation of human intelligence by machines...</span></p>
+                            <p class="terminal-celebration">✓ IT WORKS! 🎉</p>
+                        </div>
+                    </div>
+                    <div class="demo-suggestions-box fragment fade-up" data-fragment-index="2">
+                        <h3>💡 Test it yourself:</h3>
+                        <div class="suggestion-list">
+                            <div class="suggestion-item">
+                                <span class="suggest-icon">🔬</span>
+                                <p>"Explain quantum computing like I'm 5"</p>
+                            </div>
+                            <div class="suggestion-item">
+                                <span class="suggest-icon">📝</span>
+                                <p>"Write a haiku about coding"</p>
+                            </div>
+                            <div class="suggestion-item">
+                                <span class="suggest-icon">😄</span>
+                                <p>"Tell me a programming joke"</p>
+                            </div>
+                        </div>
+                        <div class="suggestion-tip">
+                            <span class="tip-icon">🌡️</span>
+                            <p>Try changing <strong>temperature</strong> to 0.2, then 1.5 and see the difference!</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 27: Project 1 - Variations -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">EXPERIMENT: Change the Personality</h2>
+                <div class="variations-layout">
+                    <div class="variations-grid-modern">
+                        <div class="variation-card fragment fade-up" data-fragment-index="1">
+                            <div class="variation-header">
+                                <span class="variation-icon">🏴‍☠️</span>
+                                <h3>PIRATE MODE</h3>
+                            </div>
+                            <div class="variation-prompt">
+                                <p class="prompt-label">System:</p>
+                                <p>"You are a pirate captain. Talk like one!"</p>
+                            </div>
+                            <div class="variation-response">
+                                <p class="response-label">Response:</p>
+                                <p>"Arrr! AI be like a magical parrot, matey!"</p>
+                            </div>
+                        </div>
+                        <div class="variation-card fragment fade-up" data-fragment-index="2">
+                            <div class="variation-header">
+                                <span class="variation-icon">👶</span>
+                                <h3>KID MODE</h3>
+                            </div>
+                            <div class="variation-prompt">
+                                <p class="prompt-label">System:</p>
+                                <p>"You are a 5-year-old. Use simple words"</p>
+                            </div>
+                            <div class="variation-response">
+                                <p class="response-label">Response:</p>
+                                <p>"AI is like a super smart robot!"</p>
+                            </div>
+                        </div>
+                        <div class="variation-card fragment fade-up" data-fragment-index="3">
+                            <div class="variation-header">
+                                <span class="variation-icon">🇮🇳</span>
+                                <h3>HINDI MODE</h3>
+                            </div>
+                            <div class="variation-prompt">
+                                <p class="prompt-label">System:</p>
+                                <p>"Always reply in Hindi"</p>
+                            </div>
+                            <div class="variation-response">
+                                <p class="response-label">Response:</p>
+                                <p>"एआई एक कंप्यूटर प्रोग्राम है..."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="challenge-box fragment zoom-in" data-fragment-index="4">
+                        <h3>🎯 YOUR CHALLENGE:</h3>
+                        <div class="challenge-list">
+                            <div class="challenge-item">
+                                <span class="challenge-num">1</span>
+                                <p>Make it talk like a Bollywood villain 🎭</p>
+                            </div>
+                            <div class="challenge-item">
+                                <span class="challenge-num">2</span>
+                                <p>Make it respond only in Emojis 😀</p>
+                            </div>
+                            <div class="challenge-item">
+                                <span class="challenge-num">3</span>
+                                <p>Make it roast you (friendly!) 🔥</p>
+                            </div>
+                        </div>
+                        <p class="challenge-tip"><strong class="highlight-green">Just change the system prompt. That's the power!</strong></p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 28: Project 2 Overview -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">PROJECT 2: CHATBOT WITH MEMORY</h2>
+                <div class="project-card">
+                    <h3>💬 CONVERSATION MEMORY CHATBOT</h3>
+                    <div class="project-section">
+                        <h4>The Problem with Project 1:</h4>
+                        <p>• Every message is standalone</p>
+                        <p>• Bot doesn't remember previous messages</p>
+                        <p>• Can't have real conversations</p>
+                    </div>
+                    <div class="project-section">
+                        <h4>What we're adding:</h4>
+                        <p>• Message history</p>
+                        <p>• Back-and-forth conversation</p>
+                        <p>• Context awareness</p>
+                    </div>
+                    <div class="project-meta">
+                        <span>Time: 15 minutes</span>
+                        <span>Difficulty: 🌶️🌶️ (Intermediate)</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 29: Project 2 - The Code -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">Adding Memory (Conversation History)</h2>
+                <div class="code-memory-layout">
+                    <div class="code-window-large fragment zoom-in" data-fragment-index="1">
+                        <div class="code-header">
+                            <div class="code-dots">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <span class="code-filename">chatbot_with_memory.py</span>
+                        </div>
+                        <div class="code-body-large">
+                            <pre><code class="python">from openai import OpenAI
+client = OpenAI(api_key="your-key")
+
+# Message history - this is the memory!
+messages = [
+    {"role": "system",
+     "content": "You are a helpful assistant"}
+]
+
+# Continuous conversation loop
+while True:
+    user_input = input("You: ")
+    if user_input.lower() == "quit":
+        break
+
+    # Add user message to history
+    messages.append({
+        "role": "user",
+        "content": user_input
+    })
+
+    # Get response (with full history!)
+    response = client.chat.completions.create(
+        model="gpt-3.5-turbo",
+        messages=messages  # ← Full conversation sent
+    )
+
+    ai_message = response.choices[0].message.content
+    print(f"AI: {ai_message}")
+
+    # Add AI response to history (important!)
+    messages.append({
+        "role": "assistant",
+        "content": ai_message
+    })</code></pre>
+                        </div>
+                    </div>
+                    <div class="code-changes-box fragment fade-up" data-fragment-index="2">
+                        <h4>🔄 What Changed:</h4>
+                        <div class="changes-list">
+                            <div class="change-item">
+                                <span class="change-icon">✓</span>
+                                <p><strong>messages = []</strong> array stores all messages</p>
+                            </div>
+                            <div class="change-item">
+                                <span class="change-icon">✓</span>
+                                <p><strong>while True</strong> loop for continuous chat</p>
+                            </div>
+                            <div class="change-item">
+                                <span class="change-icon">✓</span>
+                                <p><strong>.append()</strong> to add messages = memory!</p>
+                            </div>
+                            <div class="change-item">
+                                <span class="change-icon">✓</span>
+                                <p>Send <strong>entire messages array</strong> = context</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 30: Project 2 - Demo -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">SEE THE DIFFERENCE: Memory vs No Memory</h2>
+                <div class="memory-demo-layout">
+                    <div class="memory-comparison-grid">
+                        <div class="comparison-box comparison-fail fragment fade-left" data-fragment-index="1">
+                            <div class="comparison-header">
+                                <span class="comparison-icon">❌</span>
+                                <h3>WITHOUT MEMORY</h3>
+                            </div>
+                            <div class="comparison-chat">
+                                <div class="chat-line chat-user">
+                                    <span class="chat-label">You:</span>
+                                    <p>My name is Arjit</p>
+                                </div>
+                                <div class="chat-line chat-ai">
+                                    <span class="chat-label">AI:</span>
+                                    <p>Nice to meet you!</p>
+                                </div>
+                                <div class="chat-line chat-user">
+                                    <span class="chat-label">You:</span>
+                                    <p>What's my name?</p>
+                                </div>
+                                <div class="chat-line chat-ai">
+                                    <span class="chat-label">AI:</span>
+                                    <p>I don't know your name.</p>
+                                </div>
+                            </div>
+                            <div class="comparison-verdict verdict-fail">
+                                <span>❌</span> No Context
+                            </div>
+                        </div>
+                        <div class="comparison-box comparison-success fragment fade-right" data-fragment-index="2">
+                            <div class="comparison-header">
+                                <span class="comparison-icon">✓</span>
+                                <h3>WITH MEMORY</h3>
+                            </div>
+                            <div class="comparison-chat">
+                                <div class="chat-line chat-user">
+                                    <span class="chat-label">You:</span>
+                                    <p>My name is Arjit</p>
+                                </div>
+                                <div class="chat-line chat-ai">
+                                    <span class="chat-label">AI:</span>
+                                    <p>Nice to meet you, Arjit!</p>
+                                </div>
+                                <div class="chat-line chat-user">
+                                    <span class="chat-label">You:</span>
+                                    <p>What's my name?</p>
+                                </div>
+                                <div class="chat-line chat-ai">
+                                    <span class="chat-label">AI:</span>
+                                    <p>Your name is Arjit!</p>
+                                </div>
+                                <div class="chat-line chat-user">
+                                    <span class="chat-label">You:</span>
+                                    <p>Spell it backwards</p>
+                                </div>
+                                <div class="chat-line chat-ai">
+                                    <span class="chat-label">AI:</span>
+                                    <p>Tijra</p>
+                                </div>
+                            </div>
+                            <div class="comparison-verdict verdict-success">
+                                <span>✓</span> Full Context
+                            </div>
+                        </div>
+                    </div>
+                    <div class="memory-explanation-box fragment zoom-in" data-fragment-index="3">
+                        <h4>🔍 Why It Works:</h4>
+                        <div class="explanation-points">
+                            <div class="explain-point">
+                                <span class="point-icon">📤</span>
+                                <p>Each API call sends the <strong>ENTIRE messages array</strong></p>
+                            </div>
+                            <div class="explain-point">
+                                <span class="point-icon">👁️</span>
+                                <p>AI sees: <code>System → User1 → AI1 → User2 → ...</code></p>
+                            </div>
+                            <div class="explain-point">
+                                <span class="point-icon">💬</span>
+                                <p class="highlight-green">This is how <strong>ChatGPT interface</strong> works!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 31: Project 3 Overview -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">PROJECT 3: FUNCTION-CALLING BOT</h2>
+                <div class="project-card">
+                    <h3>🔧 FUNCTION-CALLING BOT (AI with Superpowers!)</h3>
+                    <div class="project-section">
+                        <h4>What we're building:</h4>
+                        <p>• A bot that can USE TOOLS</p>
+                        <p>• Weather checker, calculator, web search</p>
+                        <p>• AI decides WHEN to use functions</p>
+                    </div>
+                    <div class="project-section">
+                        <h4>What you'll learn:</h4>
+                        <p>• What is function calling?</p>
+                        <p>• How to define tools for AI</p>
+                        <p>• How LLM chooses which function to call</p>
+                        <p>• Real-world integration patterns</p>
+                    </div>
+                    <div class="project-meta">
+                        <span>Time: 15 minutes</span>
+                        <span>Difficulty: 🌶️🌶️🌶️ (Advanced)</span>
+                    </div>
+                </div>
+                <p class="project-instruction">
+                    This is where it gets POWERFUL. Your AI can now DO things, not just talk!
+                </p>
+            </section>
+
+            <!-- SLIDE 32: What is Function Calling? -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">WHAT IS FUNCTION CALLING?</h2>
+                <div class="function-calling-layout">
+                    <div class="fc-hero fragment zoom-in" data-fragment-index="1">
+                        <div class="fc-definition-box">
+                            <p class="fc-question">How does ChatGPT browse the web, run code, or search files?</p>
+                            <p class="fc-answer highlight-green">FUNCTION CALLING!</p>
+                            <p class="fc-explanation">LLM doesn't DO the action. It tells YOUR code which function to run.</p>
+                        </div>
+                    </div>
+                    <div class="fc-flow-comparison fragment fade-up" data-fragment-index="2">
+                        <div class="fc-flow-col">
+                            <h3>❌ BEFORE (Just Chatting)</h3>
+                            <div class="fc-flow-steps">
+                                <div class="fc-step">You: "What's the weather in Delhi?"</div>
+                                <div class="fc-arrow">↓</div>
+                                <div class="fc-step fc-step-fail">AI: "I don't know. I can't check live data."</div>
+                            </div>
+                            <p class="fc-verdict fc-verdict-bad">❌ Limited & Useless</p>
+                        </div>
+                        <div class="fc-flow-col">
+                            <h3>✓ WITH FUNCTION CALLING</h3>
+                            <div class="fc-flow-steps">
+                                <div class="fc-step">You: "What's the weather in Delhi?"</div>
+                                <div class="fc-arrow">↓</div>
+                                <div class="fc-step fc-step-ai">AI: "I should call get_weather('Delhi')"</div>
+                                <div class="fc-arrow">↓</div>
+                                <div class="fc-step fc-step-code">Your Code: Fetches real weather data</div>
+                                <div class="fc-arrow">↓</div>
+                                <div class="fc-step fc-step-success">AI: "It's 28°C and sunny in Delhi!"</div>
+                            </div>
+                            <p class="fc-verdict fc-verdict-good">✓ Powerful & Useful</p>
+                        </div>
+                    </div>
+                    <div class="fc-use-cases fragment fade-in" data-fragment-index="3">
+                        <h4>Real Use Cases:</h4>
+                        <div class="fc-cases-grid">
+                            <div class="fc-case">
+                                <span class="fc-case-icon">🌦️</span>
+                                <p><strong>Weather Apps</strong></p>
+                                <p>Check live conditions</p>
+                            </div>
+                            <div class="fc-case">
+                                <span class="fc-case-icon">🔍</span>
+                                <p><strong>Search Tools</strong></p>
+                                <p>Perplexity, web agents</p>
+                            </div>
+                            <div class="fc-case">
+                                <span class="fc-case-icon">💻</span>
+                                <p><strong>Code Execution</strong></p>
+                                <p>Run Python, analyze data</p>
+                            </div>
+                            <div class="fc-case">
+                                <span class="fc-case-icon">📧</span>
+                                <p><strong>Email/Calendar</strong></p>
+                                <p>Send emails, book meetings</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 33: Project 3 - The Code -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">PROJECT 3: The Code (Weather Bot)</h2>
+                <div class="fc-code-layout">
+                    <div class="code-window-large fragment zoom-in" data-fragment-index="1">
+                        <div class="code-header">
+                            <div class="code-dots">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <span class="code-filename">weather_bot.py</span>
+                        </div>
+                        <div class="code-body-large">
+                            <pre><code class="python">from openai import OpenAI
+import json
+
+client = OpenAI(api_key="your-key")
+
+# Define the tool (function)
+tools = [
+    {
+        "type": "function",
+        "function": {
+            "name": "get_weather",
+            "description": "Get current weather for a city",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "city": {
+                        "type": "string",
+                        "description": "City name, e.g., Delhi"
+                    }
+                },
+                "required": ["city"]
+            }
+        }
+    }
+]
+
+# User asks question
+user_message = "What's the weather in Mumbai?"
+
+# AI call with tools
+response = client.chat.completions.create(
+    model="gpt-4",
+    messages=[{"role": "user", "content": user_message}],
+    tools=tools  # ← Pass available functions
+)
+
+# Check if AI wants to call a function
+if response.choices[0].message.tool_calls:
+    tool_call = response.choices[0].message.tool_calls[0]
+    function_name = tool_call.function.name
+    arguments = json.loads(tool_call.function.arguments)
+
+    # Your code executes the function
+    if function_name == "get_weather":
+        city = arguments["city"]
+        weather_data = f"28°C, Sunny"  # Mock data
+        print(f"Weather in {city}: {weather_data}")</code></pre>
+                        </div>
+                    </div>
+                    <div class="fc-code-explanation fragment fade-up" data-fragment-index="2">
+                        <h4>🔑 Key Parts:</h4>
+                        <div class="fc-explain-grid">
+                            <div class="fc-explain-item">
+                                <span class="fc-explain-num">1</span>
+                                <p><strong>Define tools:</strong> Tell AI what functions exist</p>
+                            </div>
+                            <div class="fc-explain-item">
+                                <span class="fc-explain-num">2</span>
+                                <p><strong>AI decides:</strong> Chooses which function to call</p>
+                            </div>
+                            <div class="fc-explain-item">
+                                <span class="fc-explain-num">3</span>
+                                <p><strong>Your code runs:</strong> Actually execute the function</p>
+                            </div>
+                            <div class="fc-explain-item">
+                                <span class="fc-explain-num">4</span>
+                                <p><strong>Send result back:</strong> AI formats final response</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 34: Project 3 - How It Works -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">HOW FUNCTION CALLING WORKS (Behind the Scenes)</h2>
+                <div class="fc-diagram-layout">
+                    <div class="fc-sequence fragment fade-in" data-fragment-index="1">
+                        <div class="fc-seq-step fc-seq-user">
+                            <div class="fc-seq-icon">👤</div>
+                            <div class="fc-seq-content">
+                                <h4>1. User Asks</h4>
+                                <p>"What's the weather in Delhi?"</p>
+                            </div>
+                        </div>
+                        <div class="fc-seq-arrow">↓</div>
+                        <div class="fc-seq-step fc-seq-ai">
+                            <div class="fc-seq-icon">🤖</div>
+                            <div class="fc-seq-content">
+                                <h4>2. AI Analyzes</h4>
+                                <p>"I need weather data. I have get_weather() function!"</p>
+                            </div>
+                        </div>
+                        <div class="fc-seq-arrow">↓</div>
+                        <div class="fc-seq-step fc-seq-decision">
+                            <div class="fc-seq-icon">🧠</div>
+                            <div class="fc-seq-content">
+                                <h4>3. AI Returns JSON</h4>
+                                <code>{"function": "get_weather", "args": {"city": "Delhi"}}</code>
+                            </div>
+                        </div>
+                        <div class="fc-seq-arrow">↓</div>
+                        <div class="fc-seq-step fc-seq-code">
+                            <div class="fc-seq-icon">💻</div>
+                            <div class="fc-seq-content">
+                                <h4>4. Your Code Executes</h4>
+                                <p>Fetch real API data, database query, calculation...</p>
+                            </div>
+                        </div>
+                        <div class="fc-seq-arrow">↓</div>
+                        <div class="fc-seq-step fc-seq-result">
+                            <div class="fc-seq-icon">📊</div>
+                            <div class="fc-seq-content">
+                                <h4>5. You Send Result Back</h4>
+                                <code>{"temperature": "28°C", "condition": "Sunny"}</code>
+                            </div>
+                        </div>
+                        <div class="fc-seq-arrow">↓</div>
+                        <div class="fc-seq-step fc-seq-final">
+                            <div class="fc-seq-icon">✨</div>
+                            <div class="fc-seq-content">
+                                <h4>6. AI Formats Response</h4>
+                                <p>"It's 28°C and sunny in Delhi today!"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fc-magic-box fragment zoom-in" data-fragment-index="2">
+                        <h4 class="highlight-green">The Magic:</h4>
+                        <p>✓ AI doesn't browse web or run code</p>
+                        <p>✓ AI just decides WHICH function to call</p>
+                        <p>✓ YOUR code does the actual work</p>
+                        <p>✓ AI formats the final answer beautifully</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 35: Function Calling Examples -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">MORE FUNCTION CALLING EXAMPLES</h2>
+                <div class="fc-examples-grid-layout">
+                    <div class="fc-example-card fragment fade-up" data-fragment-index="1">
+                        <div class="fc-ex-header">
+                            <span class="fc-ex-icon">🧮</span>
+                            <h3>Calculator</h3>
+                        </div>
+                        <div class="fc-ex-body">
+                            <p class="fc-ex-user">User: "What's 234 × 567?"</p>
+                            <p class="fc-ex-ai">AI calls: calculate(234, 567, "*")</p>
+                            <p class="fc-ex-result">Result: 132,678</p>
+                        </div>
+                    </div>
+                    <div class="fc-example-card fragment fade-up" data-fragment-index="2">
+                        <div class="fc-ex-header">
+                            <span class="fc-ex-icon">📊</span>
+                            <h3>Database Query</h3>
+                        </div>
+                        <div class="fc-ex-body">
+                            <p class="fc-ex-user">User: "Show me sales from last month"</p>
+                            <p class="fc-ex-ai">AI calls: query_database("sales", "last_month")</p>
+                            <p class="fc-ex-result">Returns: ₹12.5L in sales</p>
+                        </div>
+                    </div>
+                    <div class="fc-example-card fragment fade-up" data-fragment-index="3">
+                        <div class="fc-ex-header">
+                            <span class="fc-ex-icon">📧</span>
+                            <h3>Send Email</h3>
+                        </div>
+                        <div class="fc-ex-body">
+                            <p class="fc-ex-user">User: "Email the report to john@example.com"</p>
+                            <p class="fc-ex-ai">AI calls: send_email(to, subject, body)</p>
+                            <p class="fc-ex-result">Email sent successfully!</p>
+                        </div>
+                    </div>
+                    <div class="fc-example-card fragment fade-up" data-fragment-index="4">
+                        <div class="fc-ex-header">
+                            <span class="fc-ex-icon">🌐</span>
+                            <h3>Web Search</h3>
+                        </div>
+                        <div class="fc-ex-body">
+                            <p class="fc-ex-user">User: "Latest news about AI"</p>
+                            <p class="fc-ex-ai">AI calls: search_web("AI news 2025")</p>
+                            <p class="fc-ex-result">Returns: Top 5 articles</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="fc-challenge-box fragment zoom-in" data-fragment-index="5">
+                    <h3>🎯 CHALLENGE:</h3>
+                    <p>Build a bot that can:</p>
+                    <div class="fc-challenge-list">
+                        <p>1. Check weather ☀️</p>
+                        <p>2. Do math calculations 🧮</p>
+                        <p>3. Search your files 📁</p>
+                    </div>
+                    <p class="highlight-green">You now have the power to build AI agents!</p>
+                </div>
+            </section>
+
+            <!-- SLIDE 36: Hour 1 Complete -->
+            <section class="dark-bg section-break" data-transition="zoom">
+                <div class="hour-complete-layout">
+                    <div class="complete-hero fragment zoom-in" data-fragment-index="1">
+                        <h1 class="complete-title">
+                            🎉 <span class="highlight-green">HOUR 1 COMPLETE!</span> 🎉
+                        </h1>
+                        <p class="complete-subtitle">YOU'RE NOW AN AI DEVELOPER!</p>
+                    </div>
+                    <div class="complete-achievements fragment fade-up" data-fragment-index="2">
+                        <div class="achievement-col">
+                            <h3>✅ WHAT YOU BUILT</h3>
+                            <div class="achievement-list">
+                                <div class="achievement-item">
+                                    <span class="achievement-icon">🤖</span>
+                                    <p><strong>PROJECT 1:</strong> Basic chatbot</p>
+                                </div>
+                                <div class="achievement-item">
+                                    <span class="achievement-icon">💬</span>
+                                    <p><strong>PROJECT 2:</strong> Memory chatbot</p>
+                                </div>
+                                <div class="achievement-item">
+                                    <span class="achievement-icon">🔧</span>
+                                    <p><strong>PROJECT 3:</strong> Function-calling bot</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="achievement-col">
+                            <h3>✓ WHAT YOU LEARNED</h3>
+                            <div class="achievement-list">
+                                <div class="achievement-item">
+                                    <span class="achievement-icon">🧠</span>
+                                    <p>LLM fundamentals</p>
+                                </div>
+                                <div class="achievement-item">
+                                    <span class="achievement-icon">🔌</span>
+                                    <p>OpenAI API usage</p>
+                                </div>
+                                <div class="achievement-item">
+                                    <span class="achievement-icon">💾</span>
+                                    <p>Message array management</p>
+                                </div>
+                                <div class="achievement-item">
+                                    <span class="achievement-icon">⚙️</span>
+                                    <p>Real-world integration</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="complete-next fragment fade-in" data-fragment-index="3">
+                        <div class="next-box">
+                            <h3>🚀 WHAT'S NEXT - HOUR 2</h3>
+                            <div class="next-grid">
+                                <div class="next-item">🗺️ Your 5-project roadmap</div>
+                                <div class="next-item">💼 Real career opportunities</div>
+                                <div class="next-item">📚 Resources & community</div>
+                                <div class="next-item">❓ Q&A session</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="complete-break fragment zoom-in" data-fragment-index="4">
+                        <h2>☕ 10-MINUTE BREAK</h2>
+                        <p>Stretch. Grab water. Be back at <span class="highlight-green">[TIME]</span>!</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 37: Hour 2 Introduction -->
+            <section class="dark-bg section-break" data-transition="zoom">
+                <div class="hour2-intro-layout">
+                    <div class="h2-welcome fragment zoom-in" data-fragment-index="1">
+                        <div class="section-number">HOUR 2</div>
+                        <h1 class="h2-title">
+                            WELCOME BACK!<br>
+                            <span class="highlight-green">LET'S PLAN YOUR AI CAREER</span>
+                        </h1>
+                    </div>
+                    <div class="h2-accomplished fragment fade-up" data-fragment-index="2">
+                        <h3>WHAT YOU'VE ACCOMPLISHED SO FAR:</h3>
+                        <div class="h2-checks-grid">
+                            <div class="h2-check">✅ You can call LLM APIs</div>
+                            <div class="h2-check">✅ You understand prompting</div>
+                            <div class="h2-check">✅ You've built 3 AI applications</div>
+                            <div class="h2-check">✅ You have working code on your laptop</div>
+                        </div>
+                    </div>
+                    <div class="h2-agenda fragment fade-in" data-fragment-index="3">
+                        <div class="h2-agenda-box">
+                            <h3>📋 HOUR 2 AGENDA:</h3>
+                            <div class="h2-agenda-items">
+                                <div class="h2-agenda-item">
+                                    <div class="h2-agenda-time">20 min</div>
+                                    <div class="h2-agenda-content">
+                                        <h4>🗺️ The 5-Project Roadmap</h4>
+                                        <p>Exactly what to build next</p>
+                                    </div>
+                                </div>
+                                <div class="h2-agenda-item">
+                                    <div class="h2-agenda-time">15 min</div>
+                                    <div class="h2-agenda-content">
+                                        <h4>💼 Real Career Opportunities</h4>
+                                        <p>Actual jobs, real salaries, hiring companies</p>
+                                    </div>
+                                </div>
+                                <div class="h2-agenda-item">
+                                    <div class="h2-agenda-time">10 min</div>
+                                    <div class="h2-agenda-content">
+                                        <h4>📚 Resources & Community</h4>
+                                        <p>Where to learn, who to follow, how to connect</p>
+                                    </div>
+                                </div>
+                                <div class="h2-agenda-item">
+                                    <div class="h2-agenda-time">15 min</div>
+                                    <div class="h2-agenda-content">
+                                        <h4>❓ Your Questions</h4>
+                                        <p>Open floor, ask anything</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 38: The 5-Project Roadmap Intro -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">YOUR 5-PROJECT ROADMAP TO JOB-READY</h2>
+                <div class="roadmap-intro-layout">
+                    <div class="roadmap-hero fragment zoom-in" data-fragment-index="1">
+                        <div class="roadmap-hero-box">
+                            <h3>From Today to Job Offer: A Clear Path</h3>
+                            <p class="roadmap-tagline">Each project builds on the last. By Project 5, you'll be building AI agents that companies NEED.</p>
+                        </div>
+                    </div>
+                    <div class="roadmap-timeline fragment fade-in" data-fragment-index="2">
+                        <div class="rm-timeline-track">
+                            <div class="rm-milestone rm-done">
+                                <div class="rm-number">✓</div>
+                                <h4>TODAY</h4>
+                                <p>3 Projects Done!</p>
+                            </div>
+                            <div class="rm-connector"></div>
+                            <div class="rm-milestone rm-next">
+                                <div class="rm-number">1</div>
+                                <h4>THIS WEEK</h4>
+                                <p>RAG System</p>
+                            </div>
+                            <div class="rm-connector"></div>
+                            <div class="rm-milestone">
+                                <div class="rm-number">2</div>
+                                <h4>WEEK 2</h4>
+                                <p>Multi-Agent System</p>
+                            </div>
+                            <div class="rm-connector"></div>
+                            <div class="rm-milestone">
+                                <div class="rm-number">3</div>
+                                <h4>WEEK 3-4</h4>
+                                <p>Full Stack AI App</p>
+                            </div>
+                            <div class="rm-connector"></div>
+                            <div class="rm-milestone rm-goal">
+                                <div class="rm-number">🎯</div>
+                                <h4>READY</h4>
+                                <p>Apply for Jobs!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="roadmap-why fragment fade-up" data-fragment-index="3">
+                        <h4>Why This Works:</h4>
+                        <div class="roadmap-why-grid">
+                            <div class="why-item">
+                                <span class="why-icon">🎯</span>
+                                <p><strong>Focused:</strong> Only what employers ask for</p>
+                            </div>
+                            <div class="why-item">
+                                <span class="why-icon">🔨</span>
+                                <p><strong>Practical:</strong> Build real, usable projects</p>
+                            </div>
+                            <div class="why-item">
+                                <span class="why-icon">📈</span>
+                                <p><strong>Progressive:</strong> Each builds on previous</p>
+                            </div>
+                            <div class="why-item">
+                                <span class="why-icon">💼</span>
+                                <p><strong>Portfolio:</strong> 8 projects to show off</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 39: Project 4 - RAG System -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">PROJECT 4: RAG SYSTEM (Chat with Your PDFs)</h2>
+                <div class="project-detail-layout">
+                    <div class="pd-split-layout">
+                        <div class="pd-left fragment fade-right" data-fragment-index="1">
+                            <div class="pd-header-box">
+                                <div class="pd-project-num">PROJECT 4</div>
+                                <h3>📚 RAG: Retrieval Augmented Generation</h3>
+                                <p class="pd-tagline">"AI that knows YOUR data"</p>
+                            </div>
+                            <div class="pd-what-box">
+                                <h4>What You'll Build:</h4>
+                                <ul class="pd-feature-list">
+                                    <li>Upload PDFs/docs to your system</li>
+                                    <li>AI answers questions FROM your documents</li>
+                                    <li>Like ChatGPT but trained on YOUR data</li>
+                                </ul>
+                            </div>
+                            <div class="pd-tech-stack">
+                                <h4>Tech Stack:</h4>
+                                <div class="pd-tech-pills">
+                                    <span class="tech-pill">LangChain</span>
+                                    <span class="tech-pill">Vector DB (Pinecone)</span>
+                                    <span class="tech-pill">OpenAI Embeddings</span>
+                                </div>
+                            </div>
+                            <div class="pd-time-box">
+                                <span class="pd-time-icon">⏱️</span>
+                                <p><strong>Time:</strong> 1 week (2-3 hours/day)</p>
+                            </div>
+                        </div>
+                        <div class="pd-right fragment fade-left" data-fragment-index="2">
+                            <div class="pd-diagram-box">
+                                <h4>How RAG Works:</h4>
+                                <div class="pd-rag-flow">
+                                    <div class="pd-flow-step">
+                                        <span class="pd-step-num">1</span>
+                                        <p><strong>Upload Documents</strong></p>
+                                        <p class="pd-step-detail">PDFs, docs, text files</p>
+                                    </div>
+                                    <div class="pd-flow-arrow">↓</div>
+                                    <div class="pd-flow-step">
+                                        <span class="pd-step-num">2</span>
+                                        <p><strong>Convert to Embeddings</strong></p>
+                                        <p class="pd-step-detail">Numbers that capture meaning</p>
+                                    </div>
+                                    <div class="pd-flow-arrow">↓</div>
+                                    <div class="pd-flow-step">
+                                        <span class="pd-step-num">3</span>
+                                        <p><strong>Store in Vector DB</strong></p>
+                                        <p class="pd-step-detail">Searchable knowledge base</p>
+                                    </div>
+                                    <div class="pd-flow-arrow">↓</div>
+                                    <div class="pd-flow-step pd-step-highlight">
+                                        <span class="pd-step-num">4</span>
+                                        <p><strong>User Asks Question</strong></p>
+                                        <p class="pd-step-detail">Search relevant chunks</p>
+                                    </div>
+                                    <div class="pd-flow-arrow">↓</div>
+                                    <div class="pd-flow-step">
+                                        <span class="pd-step-num">5</span>
+                                        <p><strong>LLM Generates Answer</strong></p>
+                                        <p class="pd-step-detail">Based on retrieved context</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pd-example-box">
+                                <h4>Example Use Cases:</h4>
+                                <p>• Customer support (search company docs)</p>
+                                <p>• Legal research (search case files)</p>
+                                <p>• Student helper (search textbooks)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 40: Project 5 - Multi-Agent System -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">PROJECT 5: MULTI-AGENT SYSTEM (AI Teams)</h2>
+                <div class="project-detail-layout">
+                    <div class="pd-split-layout">
+                        <div class="pd-left fragment fade-right" data-fragment-index="1">
+                            <div class="pd-header-box">
+                                <div class="pd-project-num">PROJECT 5</div>
+                                <h3>🤖🤖🤖 Multi-Agent Collaboration</h3>
+                                <p class="pd-tagline">"Multiple AI agents working together"</p>
+                            </div>
+                            <div class="pd-what-box">
+                                <h4>What You'll Build:</h4>
+                                <ul class="pd-feature-list">
+                                    <li>Research Agent (searches web)</li>
+                                    <li>Writer Agent (creates content)</li>
+                                    <li>Critic Agent (reviews & improves)</li>
+                                    <li>Coordinator (manages workflow)</li>
+                                </ul>
+                            </div>
+                            <div class="pd-tech-stack">
+                                <h4>Tech Stack:</h4>
+                                <div class="pd-tech-pills">
+                                    <span class="tech-pill">CrewAI / AutoGPT</span>
+                                    <span class="tech-pill">LangGraph</span>
+                                    <span class="tech-pill">OpenAI / Anthropic</span>
+                                </div>
+                            </div>
+                            <div class="pd-time-box">
+                                <span class="pd-time-icon">⏱️</span>
+                                <p><strong>Time:</strong> 1 week (2-3 hours/day)</p>
+                            </div>
+                        </div>
+                        <div class="pd-right fragment fade-left" data-fragment-index="2">
+                            <div class="pd-agent-diagram">
+                                <h4>Agent Collaboration:</h4>
+                                <div class="pd-agents-grid">
+                                    <div class="pd-agent-card pd-agent-research">
+                                        <div class="pd-agent-icon">🔍</div>
+                                        <h5>Research Agent</h5>
+                                        <p>Searches web, gathers data</p>
+                                    </div>
+                                    <div class="pd-agent-arrow">→</div>
+                                    <div class="pd-agent-card pd-agent-writer">
+                                        <div class="pd-agent-icon">✍️</div>
+                                        <h5>Writer Agent</h5>
+                                        <p>Creates blog post/article</p>
+                                    </div>
+                                    <div class="pd-agent-arrow pd-agent-arrow-down">↓</div>
+                                    <div class="pd-agent-card pd-agent-critic">
+                                        <div class="pd-agent-icon">🎯</div>
+                                        <h5>Critic Agent</h5>
+                                        <p>Reviews, suggests edits</p>
+                                    </div>
+                                    <div class="pd-agent-arrow">→</div>
+                                    <div class="pd-agent-card pd-agent-final">
+                                        <div class="pd-agent-icon">✅</div>
+                                        <h5>Final Output</h5>
+                                        <p>Polished, fact-checked content</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pd-example-box">
+                                <h4>Why It's Powerful:</h4>
+                                <p class="highlight-green">✓ Each agent is specialized</p>
+                                <p class="highlight-green">✓ Better results than single AI</p>
+                                <p class="highlight-green">✓ Companies pay BIG for this</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 41: Career Opportunities Overview -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">REAL CAREER OPPORTUNITIES</h2>
+                <div class="career-overview-layout">
+                    <div class="career-hero fragment zoom-in" data-fragment-index="1">
+                        <div class="career-hero-box">
+                            <h3>The AI Job Market is EXPLODING</h3>
+                            <p class="career-stat">+450% increase in "LLM Integration" roles in 2024</p>
+                        </div>
+                    </div>
+                    <div class="career-roles-grid fragment fade-up" data-fragment-index="2">
+                        <div class="career-role-card">
+                            <div class="role-icon">🚀</div>
+                            <h4>AI Engineer</h4>
+                            <p class="role-salary">₹12-35 LPA</p>
+                            <div class="role-skills">
+                                <span class="role-skill">LLM APIs</span>
+                                <span class="role-skill">Python</span>
+                                <span class="role-skill">RAG</span>
+                            </div>
+                            <p class="role-companies">Hiring: Zomato, Swiggy, Paytm</p>
+                        </div>
+                        <div class="career-role-card">
+                            <div class="role-icon">💼</div>
+                            <h4>Full Stack AI Developer</h4>
+                            <p class="role-salary">₹15-40 LPA</p>
+                            <div class="role-skills">
+                                <span class="role-skill">LLMs</span>
+                                <span class="role-skill">React/Next.js</span>
+                                <span class="role-skill">APIs</span>
+                            </div>
+                            <p class="role-companies">Hiring: Razorpay, Cred, Zepto</p>
+                        </div>
+                        <div class="career-role-card">
+                            <div class="role-icon">🎯</div>
+                            <h4>AI Product Engineer</h4>
+                            <p class="role-salary">₹18-50 LPA</p>
+                            <div class="role-skills">
+                                <span class="role-skill">Product</span>
+                                <span class="role-skill">LLMs</span>
+                                <span class="role-skill">Analytics</span>
+                            </div>
+                            <p class="role-companies">Hiring: Notion, Cursor-like startups</p>
+                        </div>
+                    </div>
+                    <div class="career-facts fragment fade-in" data-fragment-index="3">
+                        <div class="career-fact-row">
+                            <div class="career-fact">
+                                <span class="fact-icon">📈</span>
+                                <div class="fact-content">
+                                    <h4>300+ Jobs/Week</h4>
+                                    <p>New AI roles posted weekly</p>
+                                </div>
+                            </div>
+                            <div class="career-fact">
+                                <span class="fact-icon">💰</span>
+                                <div class="fact-content">
+                                    <h4>2x Average Salary</h4>
+                                    <p>AI engineers earn double vs traditional</p>
+                                </div>
+                            </div>
+                            <div class="career-fact">
+                                <span class="fact-icon">🚀</span>
+                                <div class="fact-content">
+                                    <h4>Fast Growth</h4>
+                                    <p>Senior roles in 2-3 years</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 42: Salary Breakdown -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">SALARY EXPECTATIONS (India, 2025)</h2>
+                <div class="salary-breakdown-layout">
+                    <div class="salary-tiers fragment fade-up" data-fragment-index="1">
+                        <div class="salary-tier-card salary-tier-fresher">
+                            <div class="tier-badge">FRESHER</div>
+                            <h3>0-1 Year Experience</h3>
+                            <div class="tier-salary">₹8-25 LPA</div>
+                            <div class="tier-details">
+                                <h4>Requirements:</h4>
+                                <p>• 3-5 AI projects in portfolio</p>
+                                <p>• Understanding of LLM APIs</p>
+                                <p>• Basic RAG implementation</p>
+                                <p>• Python + basic web dev</p>
+                            </div>
+                            <div class="tier-companies">
+                                <strong>Companies:</strong> Startups, service companies
+                            </div>
+                        </div>
+                        <div class="salary-tier-card salary-tier-mid">
+                            <div class="tier-badge tier-badge-mid">MID-LEVEL</div>
+                            <h3>2-3 Years Experience</h3>
+                            <div class="tier-salary tier-salary-highlight">₹15-35 LPA</div>
+                            <div class="tier-details">
+                                <h4>Requirements:</h4>
+                                <p>• Production AI apps shipped</p>
+                                <p>• Multi-agent systems</p>
+                                <p>• Full-stack capabilities</p>
+                                <p>• Vector DB experience</p>
+                            </div>
+                            <div class="tier-companies">
+                                <strong>Companies:</strong> Unicorns, product companies
+                            </div>
+                        </div>
+                        <div class="salary-tier-card salary-tier-senior">
+                            <div class="tier-badge tier-badge-senior">SENIOR</div>
+                            <h3>4+ Years Experience</h3>
+                            <div class="tier-salary">₹35-60+ LPA</div>
+                            <div class="tier-details">
+                                <h4>Requirements:</h4>
+                                <p>• Led AI product development</p>
+                                <p>• System design expertise</p>
+                                <p>• Fine-tuning, model optimization</p>
+                                <p>• Team leadership</p>
+                            </div>
+                            <div class="tier-companies">
+                                <strong>Companies:</strong> FAANG, top startups
+                            </div>
+                        </div>
+                    </div>
+                    <div class="salary-note fragment zoom-in" data-fragment-index="2">
+                        <p class="highlight-green"><strong>Pro Tip:</strong> Build in public. Share your projects on GitHub, LinkedIn, Twitter. Recruiters are actively searching for AI developers!</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 43: Resources & Learning Path -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">RESOURCES & WHERE TO LEARN</h2>
+                <div class="resources-layout">
+                    <div class="resources-grid fragment fade-up" data-fragment-index="1">
+                        <div class="resource-category">
+                            <div class="resource-cat-header">
+                                <span class="resource-icon">📚</span>
+                                <h3>Documentation & Guides</h3>
+                            </div>
+                            <div class="resource-list">
+                                <div class="resource-item">
+                                    <p><strong>OpenAI Docs</strong></p>
+                                    <p class="resource-url">platform.openai.com/docs</p>
+                                </div>
+                                <div class="resource-item">
+                                    <p><strong>LangChain Docs</strong></p>
+                                    <p class="resource-url">python.langchain.com</p>
+                                </div>
+                                <div class="resource-item">
+                                    <p><strong>Anthropic Cookbook</strong></p>
+                                    <p class="resource-url">github.com/anthropics/cookbook</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="resource-category">
+                            <div class="resource-cat-header">
+                                <span class="resource-icon">🎥</span>
+                                <h3>YouTube Channels</h3>
+                            </div>
+                            <div class="resource-list">
+                                <div class="resource-item">
+                                    <p><strong>Arjit (Me!)</strong></p>
+                                    <p class="resource-url">@codewitharjit</p>
+                                </div>
+                                <div class="resource-item">
+                                    <p><strong>Sam Witteveen</strong></p>
+                                    <p class="resource-url">LLM tutorials</p>
+                                </div>
+                                <div class="resource-item">
+                                    <p><strong>Matt Wolfe</strong></p>
+                                    <p class="resource-url">AI news & tools</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="resource-category">
+                            <div class="resource-cat-header">
+                                <span class="resource-icon">💬</span>
+                                <h3>Communities</h3>
+                            </div>
+                            <div class="resource-list">
+                                <div class="resource-item">
+                                    <p><strong>AI Workshop Discord</strong></p>
+                                    <p class="resource-url">[Link in chat]</p>
+                                </div>
+                                <div class="resource-item">
+                                    <p><strong>LangChain Discord</strong></p>
+                                    <p class="resource-url">discord.gg/langchain</p>
+                                </div>
+                                <div class="resource-item">
+                                    <p><strong>r/LangChain Reddit</strong></p>
+                                    <p class="resource-url">Active discussions</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="resource-category">
+                            <div class="resource-cat-header">
+                                <span class="resource-icon">🔧</span>
+                                <h3>Tools & Platforms</h3>
+                            </div>
+                            <div class="resource-list">
+                                <div class="resource-item">
+                                    <p><strong>GitHub Copilot</strong></p>
+                                    <p class="resource-url">AI pair programmer</p>
+                                </div>
+                                <div class="resource-item">
+                                    <p><strong>Cursor IDE</strong></p>
+                                    <p class="resource-url">AI code editor</p>
+                                </div>
+                                <div class="resource-item">
+                                    <p><strong>Replit</strong></p>
+                                    <p class="resource-url">Quick prototyping</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resources-path fragment zoom-in" data-fragment-index="2">
+                        <h3>📅 Recommended Learning Schedule:</h3>
+                        <div class="learning-schedule">
+                            <div class="schedule-week">
+                                <strong>Week 1:</strong> Complete Projects 1-3 (from today), start Project 4 (RAG)
+                            </div>
+                            <div class="schedule-week">
+                                <strong>Week 2:</strong> Finish RAG, start Project 5 (Multi-Agent)
+                            </div>
+                            <div class="schedule-week">
+                                <strong>Week 3-4:</strong> Build a full-stack AI app, add to portfolio
+                            </div>
+                            <div class="schedule-week">
+                                <strong>Week 5:</strong> Polish portfolio, start applying to jobs
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 44: Community & Support -->
+            <section class="white-bg" data-transition="slide">
+                <h2 class="dark-heading">JOIN THE COMMUNITY</h2>
+                <div class="community-layout">
+                    <div class="community-hero fragment zoom-in" data-fragment-index="1">
+                        <h3>You're Not Alone on This Journey!</h3>
+                        <p>Join hundreds of developers learning AI together</p>
+                    </div>
+                    <div class="community-benefits fragment fade-up" data-fragment-index="2">
+                        <div class="community-grid">
+                            <div class="community-card">
+                                <div class="community-icon">💬</div>
+                                <h4>Discord Community</h4>
+                                <p>Ask questions, share projects, get help</p>
+                                <p class="community-link">discord.gg/ai-workshop</p>
+                            </div>
+                            <div class="community-card">
+                                <div class="community-icon">📹</div>
+                                <h4>Weekly Live Sessions</h4>
+                                <p>Live coding, Q&A, project reviews</p>
+                                <p class="community-link">Every Saturday</p>
+                            </div>
+                            <div class="community-card">
+                                <div class="community-icon">🏆</div>
+                                <h4>Project Showcases</h4>
+                                <p>Show your work, get feedback, get noticed</p>
+                                <p class="community-link">#showcase channel</p>
+                            </div>
+                            <div class="community-card">
+                                <div class="community-icon">🤝</div>
+                                <h4>Mentorship</h4>
+                                <p>1-on-1 help with experienced developers</p>
+                                <p class="community-link">Apply in #mentorship</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="community-cta fragment zoom-in" data-fragment-index="3">
+                        <div class="cta-box">
+                            <h3>🚀 NEXT STEPS:</h3>
+                            <div class="cta-steps">
+                                <p>1. Join Discord: <span class="highlight-green">[QR CODE / LINK]</span></p>
+                                <p>2. Follow on Instagram: <span class="highlight-green">@codewitharjit</span></p>
+                                <p>3. Star GitHub repo: <span class="highlight-green">github.com/arjit/ai-workshop</span></p>
+                                <p>4. Start Project 4 THIS WEEK!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SLIDE 45: Final Thoughts & Q&A -->
+            <section class="dark-bg section-break" data-transition="zoom">
+                <div class="final-layout">
+                    <div class="final-hero fragment zoom-in" data-fragment-index="1">
+                        <h1 class="final-title">
+                            YOU'VE GOT <span class="highlight-green">EVERYTHING</span> YOU NEED
+                        </h1>
+                        <p class="final-subtitle">Now it's time to BUILD</p>
+                    </div>
+                    <div class="final-journey fragment fade-up" data-fragment-index="2">
+                        <div class="final-transform">
+                            <div class="final-before">
+                                <h3>2 Hours Ago</h3>
+                                <p>❌ "AI is complex and scary"</p>
+                                <p>❌ "I don't know where to start"</p>
+                                <p>❌ "It's only for researchers"</p>
+                            </div>
+                            <div class="final-arrow">→</div>
+                            <div class="final-after">
+                                <h3>RIGHT NOW</h3>
+                                <p class="highlight-green">✓ Built 3 working AI apps</p>
+                                <p class="highlight-green">✓ Know exactly what to learn next</p>
+                                <p class="highlight-green">✓ Have a clear path to job-ready</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="final-reminder fragment fade-in" data-fragment-index="3">
+                        <h3>Remember:</h3>
+                        <div class="final-points">
+                            <p>💡 The market is hungry for AI developers</p>
+                            <p>🚀 You're ahead of 95% of developers</p>
+                            <p>🎯 Build in public, share your journey</p>
+                            <p>🤝 The community has your back</p>
+                        </div>
+                    </div>
+                    <div class="final-qna fragment zoom-in" data-fragment-index="4">
+                        <div class="qna-box">
+                            <h2>❓ Q&A TIME</h2>
+                            <p>Ask me ANYTHING</p>
+                            <p class="qna-topics">Tech questions • Career advice • Project ideas • Anything else!</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    <!-- Reveal.js Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/notes/notes.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/highlight/highlight.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/plugin/zoom/zoom.js"></script>
+
+    <!-- Custom initialization -->
+    <script src="js/init.js"></script>
+</body>
+</html>
